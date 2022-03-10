@@ -1,0 +1,129 @@
+/* APP */
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.h4f13{
+    font-size: 13px;
+}
+h4{
+    font-weight: 300;
+    line-height: 28.5px;
+    color: #4d6080;
+}
+.underline{
+    text-decoration: underline;
+}
+.pd015{
+    padding: 0px 15px 0px 15px;
+}
+
+/*HEADER SECTION*/
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 28.5px 0 23px 0 !important;
+}
+.container{
+    max-width: 960px;
+}
+.button-blue{
+    background-color: #4794f7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    transition-duration: 300ms;
+}
+.button-blue:hover{
+    background-color: #3b7acc;
+}
+.navbar-links{
+    justify-content: start; 
+    align-items: center; 
+    padding-top: 8px; 
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.navbar-left-side .navbar-photo img{
+    height: 28px;
+    margin-right: 55px;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.div{
+    display: block;
+}
+#aaa{
+    max-height: 28px;
+}
+.links{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A232F;
+}
+.links:hover{
+    text-decoration: underline;
+    color:#1A232F;
+}
+.active{
+    color: #4794f7 !important;
+}
+
+/*    FOOTER SECTION    */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col{
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.social-icons img{
+    max-height: 20px;
+    margin: 0px 7px 0px 7px;
+}
+.flex{
+    -ms-flex-pack: end !important;
+    display: flex !important;
+}
+.content-end{
+-webkit-box-pack: end !important;
+-ms-flex-pack: end !important;
+justify-content: flex-end !important;
+}
+#f13h17{
+    font-size: 13px;
+    line-height: 17px;
+}
+#m20028{
+    max-width: 200px;
+    height: 28px;
+}
+.container11{
+    max-width: 1140px;
+}
