@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import header from '../plugins/visivig/layout/layout-header.vue'
 import pageHome from '../plugins/visivig/pages/page-home.vue'
 import page2 from '../plugins/visivig/pages/page-2%.vue'
 import nasTim from '../plugins/visivig/pages/page-nasTim.vue'
@@ -8,6 +7,7 @@ import openlaby from '../plugins/visivig/pages/page-openlaby.vue'
 import preUcitelov from '../plugins/visivig/pages/page-preUcitelov.vue'
 import pridajteSa from '../plugins/visivig/pages/page-pridajteSa.vue'
 import novinky from '../plugins/visivig/pages/page-novinky.vue'
+// import header from '../plugins/visivig/layout/layout-header.vue'
 // import footer from '../plugins/visivig/layout/layout-footer.vue'
 
 Vue.use(VueRouter)
@@ -17,34 +17,39 @@ const routes = [
     path: '/',
     name: 'pageHome',
     component: pageHome
+  },
+  {
+    path: '/home',
+    name: 'pageHome',
+    component: pageHome
   }, 
   {
-    path: '/',
+    path: '/page-2',
     name: 'page-2',
     component: page2
   },
   {
-    path: '/',
+    path: '/nas-tim',
     name: 'nasTim',
     component: nasTim
   },
   {
-    path: '/',
+    path: '/novinky',
     name: 'novinky',
     component: novinky
   },
   {
-    path: '/',
+    path: '/openlaby',
     name: 'openlaby',
     component: openlaby
   },
   {
-    path: '/',
+    path: '/pre-ucitelov',
     name: 'preUcitelov',
     component: preUcitelov
   },
   {
-    path: '/',
+    path: '/pridaj-sa',
     name: 'pridajteSa',
     component: pridajteSa
   },

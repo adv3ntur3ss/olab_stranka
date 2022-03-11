@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
+  <div class="container mb-70">
     <div class="row">
       <div class="pd015 col">
           <img id="m20028" src="./assets/logo.png">
           <h4 id="f13h17">
               © 2020 Všetky práva vyhradené
               <br>
-              Openlab, o. z. 
+              OpenLab, o. z. 
           </h4>
       </div>
       <div class="col"> 

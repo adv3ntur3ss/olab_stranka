@@ -24,8 +24,31 @@ h4{
 .pd015{
     padding: 0px 15px 0px 15px;
 }
+.mb-70{
+    margin-bottom: 70px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #000415;
+    margin-bottom: 40px;
+}
+.container > h1:first-child {
+    text-align: center;
+}
+.hlc{
+    margin-top: 5px;
+}
+.block{
+    display: block;
+}
 
 /*HEADER SECTION*/
+.navbar-left-side{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -33,6 +56,11 @@ h4{
 }
 .container{
     max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-blue{
     background-color: #4794f7;
@@ -55,7 +83,7 @@ h4{
     font-weight: 400;
     color: black;
 }
-.navbar-left-side .navbar-photo img{
+.navbar-left-side img{
     height: 28px;
     margin-right: 55px;
 }
@@ -126,4 +154,82 @@ justify-content: flex-end !important;
 }
 .container11{
     max-width: 1140px;
+}
+
+/* dakujemeZaPodporuSection */
+
+.image-flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.image-flexbox img{
+    max-width: 160px;
+    max-height: 100px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* imagesPredDakujeme */
+
+.images-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    min-height: 50px;
+    max-height: 500px;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+.images-row img{
+    object-fit: cover;
+}
+.w444{
+    max-width: 33.33%;
+}
+
+/* newsletter section */
+
+#newsletter{
+    border-radius: 6px;
+    padding: 34px 29px 23px 50px;
+    background-color: #d8ecfc;
+}
+.colm{
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+#h4nws1{
+    color: black;
+    font-weight: 400;
+    font-size: 17.5px;
+}
+#h4nws2{
+    color: black;
+    font-weight: 700;
+    font-size: 17.5px;
+}
+.nwsltr-btn{
+    background-color: #4794f7;
+    color: white;
+    height: 37px;
+}
+.nwsltr-input{
+    height: 37px;
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+.block .nwsltr-btn{
+    position: absolute;
 }
