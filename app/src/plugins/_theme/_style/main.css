@@ -354,3 +354,29 @@ img {
   margin-left: auto;
   padding-bottom: 10px;
 }
+
+/* precoSaStatStudentom Section */
+
+.pb-15{
+  padding-bottom: 15px;
+}
+.mb-23{
+  margin-bottom: 23px;
+}
+.preco-img{
+  margin-bottom: 23px;
+  width: 45px;
+  height: 45px;
+}
+.preco-a{
+  position: absolute;
+  bottom: 0;
+  color: #2c92ff;
+}
+.preco-a:hover{
+  text-decoration: underline;
+  color: #2c92ff;
+}
+#idaw{
+  padding-bottom: 26.5px;
+}

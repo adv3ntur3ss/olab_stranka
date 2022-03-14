@@ -1,6 +1,7 @@
 <template>
 <div>
     <layout-header/>
+    <precoSaStatStudentom/>
     <r-hr/>
     <openlabPosuva/>
     <ktoStojiZaOpenlabom/>
@@ -26,7 +27,8 @@ export default {
         'r-hr': () => import('../reusables/reusables-universal/hrSection/r-hr.vue'),
         'nasaVizia': () => import('../reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),
         'ktoStojiZaOpenlabom': () => import('../reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
-        'openlabPosuva': () => import('../reusables/reusables-universal/openlabPosuvaSection/r-openlabPosuva.vue')
+        'openlabPosuva': () => import('../reusables/reusables-universal/openlabPosuvaSection/r-openlabPosuva.vue'),
+        'precoSaStatStudentom': () => import('../reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue')
     }
         
 }
