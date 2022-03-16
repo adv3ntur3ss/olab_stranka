@@ -11,7 +11,7 @@
       <div class="col">
         <div class="pb-15">
           <img
-            class="preco-img"
+            class="lab-img"
             src="./assets/5ea1646181a695ea0a1b0305127.png"
           />
           <h3 class="mb-23">
@@ -34,7 +34,7 @@
       </div>
       <div class="col">
         <div class="pb-15">
-          <img class="preco-img" src="./assets/2.png" />
+          <img class="lab-img" src="./assets/2.png" />
           <h3 class="mb-23">
             Získaj support
             <br />
@@ -54,7 +54,7 @@
       </div>
       <div class="col">
         <div class="pb-15">
-          <img class="preco-img" src="./assets/3.png" />
+          <img class="lab-img" src="./assets/3.png" />
           <h3 id="idaw" class="mb-23">Poď stážovať!</h3>
           <p class="mb-23">
             Nemusíš mať top tech skilly, aby si získal stáž v technologickej

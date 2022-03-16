@@ -1,9 +1,12 @@
 <template>
 <div>
     <layout-header/>
+    <zapojSaDoOpenlabu/>
+    <programovanieDigTech/>
     <precoSaStatStudentom/>
     <r-hr/>
     <openlabPosuva/>
+    <cimSmeVynimocni/>
     <ktoStojiZaOpenlabom/>
     <r-hr/>
     <nasaVizia/>
@@ -28,7 +31,10 @@ export default {
         'nasaVizia': () => import('../reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),
         'ktoStojiZaOpenlabom': () => import('../reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
         'openlabPosuva': () => import('../reusables/reusables-universal/openlabPosuvaSection/r-openlabPosuva.vue'),
-        'precoSaStatStudentom': () => import('../reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue')
+        'precoSaStatStudentom': () => import('../reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue'),
+        'cimSmeVynimocni': () => import('../reusables/reusables-home/cimSmeVynimocniSection/r-cimSmeVynimocni.vue'),
+        'zapojSaDoOpenlabu': () => import('../reusables/reusables-home/zapojSaDoOpenlabuSection/r-zapojSaDoOpenlabu.vue'),
+        'programovanieDigTech': () =>import('../reusables/reusables-home/programovanieDigTechSection/r-programovanieDigTech.vue')
     }
         
 }
