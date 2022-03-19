@@ -8,7 +8,7 @@
 export default {
     components: {
         'layout-header': () => import('../layout/layout-header.vue'),
-        'layout-footer': () => import('../layout/layout-footer.vue')
+        'layout-footer': () => import('../layout/layout-footer.vue'),
     }
         
 }

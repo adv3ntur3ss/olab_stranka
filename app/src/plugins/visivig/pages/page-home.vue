@@ -6,6 +6,11 @@
     <precoSaStatStudentom/>
     <r-hr/>
     <openlabPosuva/>
+    <pridajteSaKNam/>
+    <sliderControlCards/>
+    <sliderCard/>
+    <studentskeProjekty/>
+    <studentskeProjektyCard/>
     <cimSmeVynimocni/>
     <ktoStojiZaOpenlabom/>
     <r-hr/>
@@ -34,7 +39,12 @@ export default {
         'precoSaStatStudentom': () => import('../reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue'),
         'cimSmeVynimocni': () => import('../reusables/reusables-home/cimSmeVynimocniSection/r-cimSmeVynimocni.vue'),
         'zapojSaDoOpenlabu': () => import('../reusables/reusables-home/zapojSaDoOpenlabuSection/r-zapojSaDoOpenlabu.vue'),
-        'programovanieDigTech': () =>import('../reusables/reusables-home/programovanieDigTechSection/r-programovanieDigTech.vue')
+        'programovanieDigTech': () =>import('../reusables/reusables-home/programovanieDigTechSection/r-programovanieDigTech.vue'),
+        'studentskeProjekty': () => import('../reusables/reusables-home/studentskeProjektySection/r-studentskeProjekty.vue'),
+        'studentskeProjektyCard': () => import('../reusables/reusables-home/studentskeProjektyCardSection/r-studentskeProjektyCard.vue'),
+        'pridajteSaKNam': () => import('../reusables/reusables-home/pridajteSaKNamSection/r-pridajteSaKNam.vue'),
+        'sliderControlCards': () => import('../reusables/reusables-home/sliderControlCards/r-sliderControlCards.vue'),
+        'sliderCard': () => import('../reusables/reusables-home/sliderCard/r-sliderCard.vue')
     }
         
 }

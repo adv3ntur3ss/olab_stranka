@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import pageHome from '../plugins/visivig/pages/page-home.vue'
-import page2 from '../plugins/visivig/pages/page-2%.vue'
+import page2 from '../plugins/visivig/pages/page-2percent.vue'
 import nasTim from '../plugins/visivig/pages/page-nasTim.vue'
 import openlaby from '../plugins/visivig/pages/page-openlaby.vue'
 import preUcitelov from '../plugins/visivig/pages/page-preUcitelov.vue'
@@ -24,8 +24,8 @@ const routes = [
     component: pageHome
   }, 
   {
-    path: '/page-2',
-    name: 'page-2',
+    path: '/2percent',
+    name: '2percent',
     component: page2
   },
   {
@@ -71,7 +71,8 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  linkActiveClass: 'active'
 })
 
 export default router

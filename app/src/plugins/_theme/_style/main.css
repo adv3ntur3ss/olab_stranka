@@ -28,7 +28,7 @@ h4 {
 .card {
   display: flex;
   flex-direction: column;
-  border-style: none;
+  border-style: none !important;
 }
 .card-body-number {
   display: flex;
@@ -38,6 +38,22 @@ h4 {
   min-height: 238px;
   padding: 34px 23px;
   border-radius: 6px;
+}
+.card{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
 }
 .card-c-1 {
   color: rgb(106, 83, 169);
@@ -81,11 +97,26 @@ h1 {
   color: #000415;
   margin-bottom: 40px;
 }
+h1 b{
+  font-weight: 700;
+}
+h2{
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #00031A;
+}
 h3 {
   font-size: 20px;
   line-height: 26.5px;
   font-weight: 700;
   color: #020814;
+}
+h5{
+  font-size: 20px;
+  line-height: 26.5px;
+  font-weight: 300;
+  color: #020314;
 }
 .container > h1:first-child {
   text-align: center;
@@ -98,8 +129,9 @@ h3 {
 }
 hr {
   background-color: #cddff1;
+  opacity: 0.5;
   margin: 60px 0 70px 0;
-  border-top: 1px solid #000000;
+  border-top: 0.5px solid
 }
 .center {
   text-align: center;
@@ -121,6 +153,12 @@ p {
 .pdt-60 {
   padding-top: 60px;
 }
+.pdb-60{
+  padding-bottom: 60px;
+}
+.pdb-20{
+  padding-bottom: 20px;
+}
 .pdtb-80 {
   padding: 80px 0 80px 0;
 }
@@ -139,8 +177,17 @@ p {
 .pb-15 {
   padding-bottom: 15px;
 }
+.pb-35{
+  padding-bottom: 35px;
+}
 .mb-23 {
   margin-bottom: 23px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.pd-0{
+  padding: 0;
 }
 
 /* HEADER SECTION */
@@ -205,12 +252,9 @@ img {
   font-weight: 400;
   color: #1a232f;
 }
-.links:hover {
+.links:hover{
   text-decoration: underline;
   color: #1a232f;
-}
-.active {
-  color: #4794f7 !important;
 }
 
 /*    FOOTER SECTION    */
@@ -436,15 +480,137 @@ img {
   padding-top: 30px;
 }
 #iqqqa {
-  padding: 5px 10px 10px 0;
+  padding: 5px 10px 20px 0;
   margin-bottom: 15px;
 }
 #ivood {
-  padding: 15px 40px 15px 40px;
+  padding: 15px 35px 15px 35px;
   font-weight: 700;
   font-size: 14px;
 }
 #ivood:hover {
   color: white;
   background-color: #0368d8;
+}
+#icpl{
+  padding-left: 20px;
+}
+
+/* studentskeProjekty SECTION */
+
+#ib700{
+  font-weight: 700;
+}
+
+/* studentskeProjektyCard SECTION */
+
+#iiasq{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#iartq{
+  padding: 40px;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+#iu43q{
+  font-size: 22px;
+  color: #000000;
+}
+#iu43q:hover{
+  text-decoration: underline;
+}
+#ihr3q{
+  margin: 30px 0 30px 0;
+  width: 50px;
+  height: 2px;
+  background-color: #000000;
+  color: #000000;
+}
+#ih2wr{
+  margin-bottom: 30px;
+  font-weight: 250;
+}
+#ihr5q{
+  font-weight: 700;
+}
+#ihr5w{
+  margin-bottom: 20px;
+}
+#iaqtr{
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+/* sliderControlCards section */
+
+.cardC{
+  padding-top: 35px;
+  padding-right: 15px;
+  padding-bottom: 60px;
+  padding-left: 24px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 6px;
+  border: none;
+
+}
+.cardC:hover{
+  box-shadow: 0px 0px 25px rgb(99 118 149 / 15%);
+  cursor: pointer;
+}
+.cardC img{
+  position: absolute;
+  bottom: 25px;
+  width: 30px;
+  height: 20px;
+}
+#ipdaq{
+  padding: 0 0 100px 0;
+}
+
+/* sliderCard section */
+
+#idcol5 {
+  flex-basis: 41.666667%;
+  padding: 40px;
+  background-color: rgb(22, 165, 84);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#idcol7 {
+  flex-basis: 58.333333%;
+  padding: 0px;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+}
+#iimgq{
+  height: 100%;
+  object-fit: cover;
+}
+#ihrqq{
+  margin: 30px 0;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  border: none !important;
+}
+#ippeq{
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 17px;
+}
+#ihpsq{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+#ihtrq{
+  color: rgb(255, 255, 255);
+  line-height: 32px;
+  margin: 0 0 50px 0;
+}
+#ihtsq{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
 }

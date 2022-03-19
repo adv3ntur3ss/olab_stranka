@@ -5,7 +5,7 @@
         <div class="col">
           <img src="./assets/620a24b2ea8c7openlab.png" />
         </div>
-        <div class="col">
+        <div id="icpl" class="col">
           <h1 id="h1-700" class="hlc">
             Programovanie<br />digitálnych technológií
           </h1>
