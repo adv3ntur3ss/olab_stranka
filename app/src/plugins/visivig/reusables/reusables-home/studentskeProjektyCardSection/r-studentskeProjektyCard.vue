@@ -2,7 +2,7 @@
   <div>
     <div class="container" id="iiasq">
       <div class="row">
-        <div id="iartq" class="col">
+        <div id="iartq" class="col-md-6">
           <h5 id="ihr5q" class="hlc">Školy v OpenLabe</h5>
           <hr id="ihr3q" />
           <h2 id="ih2wr"  class="hlc">
@@ -26,7 +26,7 @@
             >https://www.open-academy.sk</a
           >
         </div>
-        <div id="iaqtr" class="col">
+        <div id="iaqtr" class="col-md-6">
             <img src="./assets/5ea7e9ddd14baopenacademy.png">
         </div>
       </div>

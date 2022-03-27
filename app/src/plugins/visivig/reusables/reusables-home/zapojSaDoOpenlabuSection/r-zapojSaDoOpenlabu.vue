@@ -2,7 +2,7 @@
   <div class="blue-div mb-0">
     <div class="container">
       <div id="iqwaq" class="row">
-        <div class="pdt-120 col col6">
+        <div class="pdt-120 col-md-6">
           <h1 class="hlc white-text">
             Zaujímajú Ťa najnovšie technológie?
             <br />
@@ -14,7 +14,7 @@
             S týmito tech zručnosťami budeš ready na 21. storočie.
           </h4>
         </div>
-        <div class="col col6">
+        <div class="col-md-6 col-r">
             <img id="iqwew" src="./assets/5ea6d7142dd19Untitled-2.png">
         </div>
       </div>

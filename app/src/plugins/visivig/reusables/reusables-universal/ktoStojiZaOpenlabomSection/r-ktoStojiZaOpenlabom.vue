@@ -1,7 +1,7 @@
 <template>
   <div class="mb-70 pd30-0 container">
     <div class="row">
-      <div id="idcol4" class="col">
+      <div id="idcol4" class="col-md-4">
         <h1 class="hlc">Kto stojí za OpenLabom?</h1>
         <h4 class="hlc">
           OpenLaby vytvárame úzkou spoluprácou medzi strednými odbornými školami
@@ -9,7 +9,7 @@
           partneri.
         </h4>
       </div>
-      <div id="idcol8" class="col">
+      <div id="idcol8" class="col-md-8">
         <div class="image-flexbox">
           <img src="./assets/5ea165253d74cdownload-1.png" />
           <img src="./assets/5ea165295e151download-2.jpeg" />

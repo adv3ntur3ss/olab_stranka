@@ -8,7 +8,7 @@
       know-how.
     </h4>
     <div class="row">
-      <div class="col">
+      <div class="col-r col-md">
         <div class="pb-15">
           <img
             class="lab-img"
@@ -32,7 +32,7 @@
           >
         </div>
       </div>
-      <div class="col">
+      <div class="col-r col-md">
         <div class="pb-15">
           <img class="lab-img" src="./assets/2.png" />
           <h3 class="mb-23">
@@ -52,7 +52,7 @@
           >
         </div>
       </div>
-      <div class="col">
+      <div class="col-r col-md">
         <div class="pb-15">
           <img class="lab-img" src="./assets/3.png" />
           <h3 id="idaw" class="mb-23">Poď stážovať!</h3>

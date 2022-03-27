@@ -9,7 +9,7 @@
         </p>
         <img src="./assets/arrow-grey.png">
       </div>
-      <div class="col card cardC">
+      <div class="col-md card cardC">
         <h3 class="hlc">Firmy</h3>
         <p class="hlc">
           Technologické firmy sú garantmi obsahu jednotlivých labov,
@@ -17,7 +17,7 @@
         </p>
         <img src="./assets/arrow-grey.png">
       </div>
-      <div class="col card cardC">
+      <div class="col-md card cardC">
         <h3 class="hlc">Študenti</h3>
         <p class="hlc">
           Stredoškoláci so záujmom o najnovšie technológie a silnou vnútornou
@@ -25,7 +25,7 @@
         </p>
         <img src="./assets/arrow-grey.png">
       </div>
-      <div class="col card cardC">
+      <div class="col-md card cardC">
         <h3 class="hlc">Školy</h3>
         <p class="hlc">
           Stredné odborné školy zamerané na digitálne technológie v jednotlivých

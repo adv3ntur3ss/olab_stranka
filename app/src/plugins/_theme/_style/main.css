@@ -16,12 +16,6 @@ a {
 .h4f13 {
   font-size: 13px;
 }
-h4 {
-  font-weight: 300;
-  line-height: 28.5px;
-  color: #4d6040;
-  font-size: 17.5px;
-}
 .underline {
   text-decoration: underline;
 }
@@ -91,6 +85,12 @@ h4 {
 .mb-70 {
   margin-bottom: 70px;
 }
+.mb-200{
+  margin-bottom: 200px;
+}
+.mt-48{
+  margin-top: 48px;
+}
 h1 {
   font-size: 40px;
   font-weight: 300;
@@ -112,11 +112,25 @@ h3 {
   font-weight: 700;
   color: #020814;
 }
+h4 {
+  font-weight: 300;
+  line-height: 28.5px;
+  color:  rgb(0, 0, 30);
+  font-size: 17.5px;
+}
+h4 b{
+  font-weight: 700;
+}
 h5{
   font-size: 20px;
   line-height: 26.5px;
   font-weight: 300;
   color: #020314;
+}
+h6{
+  font-size: 16px;
+  font-weight: 250;
+  line-height: 1.5;
 }
 .container > h1:first-child {
   text-align: center;
@@ -155,6 +169,9 @@ p {
 }
 .pdb-60{
   padding-bottom: 60px;
+}
+.pdb-150{
+  padding-bottom: 150px;
 }
 .pdb-20{
   padding-bottom: 20px;
@@ -200,14 +217,6 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 28.5px 0 23px 0 !important;
-}
-.container {
-  max-width: 1140px;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .button-blue {
   background-color: #4794f7;
@@ -296,9 +305,6 @@ img {
 #m20028 {
   max-width: 200px;
   height: 28px;
-}
-.container11 {
-  max-width: 1140px;
 }
 
 /* dakujemeZaPodporu Section */
@@ -440,6 +446,9 @@ img {
 }
 #idaw {
   padding-bottom: 26.5px;
+}
+.col-r{
+  position: relative;
 }
 
 /* cimSmeVynimocni section */
@@ -613,4 +622,75 @@ img {
   color: rgb(255, 255, 255);
   font-size: 17px;
   font-weight: 500;
+}
+
+/* skusenostiUcitelov Section */
+.skusImg{
+  margin-bottom: 35px;
+  height: 300px;
+}
+
+/* barboraRusinakova SEction */
+
+#barbora{
+  padding: 20px;
+  border-radius: 9px;
+  margin: 0 8px;
+  background-color: rgb(249, 169, 74);
+}
+
+/* podporteNas Section */
+
+.h4-c{
+  color: #4D6080;
+}
+/* vzdelavanieJe section */
+
+.orange-div{
+  background-color: rgb(249, 169, 74);
+}
+#iqoop{
+  min-height: 510px;
+}
+
+/* spajanePre section */
+
+#iqbbo{
+  font-weight: 430;
+}
+
+/*  */
+
+#ihrhr{
+  background-color: rgb(255,255,255);
+  border: 0;
+  opacity: 0.5;
+}
+
+#iqclp {
+  flex-basis: 41.666667%;
+  padding: 40px;
+  background-color: rgb(0, 176, 80);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#iqrom{
+  color: rgb(251, 253, 255);
+}
+#ihqwz{
+  color: rgb(251, 253, 255);
+}
+#iimgp{
+  height: 100%;
+  object-fit: cover;
+}
+#ihqqrt{
+  color: rgb(255, 255, 255);
+  line-height: 32px;
+}
+
+/* kNasimAktivitam section */
+
+#iqpbt{
+  padding: 80px 15px 140px 15px;
 }

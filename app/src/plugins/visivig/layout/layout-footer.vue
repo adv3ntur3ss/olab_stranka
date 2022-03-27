@@ -1,7 +1,7 @@
 <template>
   <div class="container mb-70">
     <div class="row">
-      <div class="pd015 col">
+      <div class="pd015 col-md">
           <img id="m20028" src="./assets/logo.png">
           <h4 id="f13h17">
               © 2020 Všetky práva vyhradené
@@ -9,7 +9,7 @@
               OpenLab, o. z. 
           </h4>
       </div>
-      <div class="col"> 
+      <div class="col-md"> 
           <h4 class="h4f13">
               IČO: 50764675
           </h4>
@@ -17,7 +17,7 @@
               Viedenská cesta 257, 851 01 Bratislava
           </h4>
       </div>
-      <div class="col">
+      <div class="col-md">
           <a href="tel:+421 903 758 062">
               <h4 class="h4f13 underline">
                   +421 903 758 062
@@ -29,7 +29,7 @@
               </h4>
           </a>
       </div>
-      <div class="col">
+      <div class="col-md">
           <div class="flex content-end social-icons">
               <a href="https://www.facebook.com/OpenLab.sk/" target="_blank">
                 <img src="./assets/facebook.png">

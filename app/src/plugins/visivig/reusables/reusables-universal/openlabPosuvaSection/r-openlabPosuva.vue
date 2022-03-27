@@ -10,7 +10,7 @@
       tvoriť.
     </h4>
     <div id="idcards" class="row">
-      <div class="col max25">
+      <div class="col-lg-3 col-md-6">
         <div class="card">
           <div class="card-c-1 card-body-number">
             <p class="card-c-1 big-num">10</p>
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="col max25">
+      <div class="col-lg-3 col-md-6">
         <div class="card">
           <div class="card-c-2 card-body-number">
             <p class="card-c-2 big-num">150</p>
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      <div class="col max25">
+      <div class="col-lg-3 col-md-6">
         <div class="card">
           <div class="card-c-3 card-body-number">
             <p class="card-c-3 big-num">9</p>
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="col max25">
+      <div class="col-lg-3 col-md-6">
         <div class="card">
           <div class="card-c-4 card-body-number">
             <p class="card-c-4 big-num">2</p>

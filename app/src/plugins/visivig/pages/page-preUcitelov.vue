@@ -1,6 +1,7 @@
 <template>
 <div>
     <layout-header/>
+    <skusenostiUcitelov/>
     <layout-footer/>
 </div>
 </template>
@@ -8,7 +9,8 @@
 export default {
     components: {
         'layout-header': () => import('../layout/layout-header.vue'),
-        'layout-footer': () => import('../layout/layout-footer.vue')
+        'skusenostiUcitelov': () => import('../reusables/reusables-preUcitelov/skusenostiUcitelovSection/r-skusenostiUcitelov.vue'),
+        'layout-footer': () => import('../layout/layout-footer.vue'),
     }
         
 }

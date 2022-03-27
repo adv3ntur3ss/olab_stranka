@@ -2,10 +2,10 @@
   <div id="ioopq" class="gradient">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md">
           <img src="./assets/620a24b2ea8c7openlab.png" />
         </div>
-        <div id="icpl" class="col">
+        <div id="icpl" class="col-md">
           <h1 id="h1-700" class="hlc">
             Programovanie<br />digitálnych technológií
           </h1>

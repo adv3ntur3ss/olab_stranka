@@ -3,7 +3,7 @@
     <div class="pdtb-80 container">
       <h1 class="hlc white-text">Čím sme výnimoční?</h1>
       <div class="pdtb-10 row">
-        <div class="col">
+        <div class="col-md">
           <div class="pb-15">
             <img
               class="lab-img"
@@ -16,7 +16,7 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="pb-15">
             <img class="lab-img" src="./assets/2.png" />
             <h3 class="white-text hlc mb-23">LabMaster</h3>
@@ -26,7 +26,7 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="pb-15">
             <img class="lab-img" src="./assets/3.png" />
             <h3 class="white-text hlc mb-23">Učebný blok</h3>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div id="iv8aq" class="pdtb-10 row">
-        <div class="col">
+        <div class="col-md">
           <div class="pb-15">
             <img class="lab-img" src="./assets/4.png" />
             <h3 class="white-text hlc mb-23">"Problem driven"</h3>
@@ -48,7 +48,7 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="pb-15">
             <img class="lab-img" src="./assets/5.png" />
             <h3 class="white-text hlc mb-23">"Project driven"</h3>
@@ -58,7 +58,7 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="pb-15">
             <img class="lab-img" src="./assets/6.png" />
             <h3 class="white-text hlc mb-23">Samoštúdium</h3>
