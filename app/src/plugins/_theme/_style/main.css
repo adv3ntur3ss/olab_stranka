@@ -208,6 +208,7 @@ p {
 }
 
 /* HEADER SECTION */
+
 .navbar-left-side {
   display: flex;
   justify-content: start;
@@ -625,6 +626,7 @@ img {
 }
 
 /* skusenostiUcitelov Section */
+
 .skusImg{
   margin-bottom: 35px;
   height: 300px;
@@ -693,4 +695,24 @@ img {
 
 #iqpbt{
   padding: 80px 15px 140px 15px;
+}
+#iqrpb{
+  padding-bottom: 70px;
+}
+
+/* venujteNamDve */
+
+.purple-div{
+  background-color: rgb(119, 32, 232);
+}
+#iqpdm{
+  padding: 120px 15px 80px 15px;
+}
+/* naDarovanie */
+
+#iqrnd{
+  padding: 30px 0 50px 0;
+}
+.h5-f18{
+  font-size: 16px;
 }

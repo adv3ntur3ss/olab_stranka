@@ -9,7 +9,7 @@
         učiteľov a zvyšovať kvalitu absolventov stredných škôl cez budovanie
         funkčných spoluprác s poprednými technologickými firmami.
       </h6>
-      <div class="row">
+      <div id="iqrpb" class="row">
         <div class="col-md">
           <img
             class="lab-img"
