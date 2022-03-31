@@ -1,6 +1,6 @@
 <template>
   <div class="pdb-20 container mb-70">
-    <div class="row">
+    <div id="iqooq" class="row">
       <div id="iqclp" class="col-md-5">
           <h4 id="iqrom" class="hlc">
               <b>Roman Sekerka, Technical Director</b> 

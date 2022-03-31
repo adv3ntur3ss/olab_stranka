@@ -1,6 +1,6 @@
 <template>
   <div class="pdb-20 container">
-    <div class="row">
+    <div id="iqiid" class="row">
       <div id="idcol5" class="col-md-5">
         <h5 id="ihpsq" class="hlc">LabMastri v OpenLabe</h5>
         <hr id="ihrqq" />

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container" id="iiasq">
-      <div class="row">
+      <div id="iqdor" class="row">
         <div id="iartq" class="col-md-6">
           <h5 id="ihr5q" class="hlc">Školy v OpenLabe</h5>
           <hr id="ihr3q" />
