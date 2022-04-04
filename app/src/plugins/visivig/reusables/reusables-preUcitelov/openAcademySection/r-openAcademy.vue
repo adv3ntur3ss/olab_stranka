@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="m-auto">
-        <a class="hlc" href="https://openlab.sk/skolenia"><!-- temp href -->
+        <a class="hlc" href="https://openlab.sk/skolenia" target="_blank"><!-- temp href -->
             <button id="iqllk" class="btn btn-primary">
             Chcem sa prihlásiť na školenia
             </button>
