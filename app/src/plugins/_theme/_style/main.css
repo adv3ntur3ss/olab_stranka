@@ -76,6 +76,9 @@ a {
   font-weight: 700;
   margin-bottom: 0;
 }
+.fw-300{
+  font-weight: 300;
+}
 .max25 {
   max-width: 25%;
 }
@@ -85,11 +88,18 @@ a {
 .mb-70 {
   margin-bottom: 70px;
 }
+.mb-50{
+  margin-bottom: 50px;
+}
 .mb-200{
   margin-bottom: 200px;
 }
 .mt-48{
   margin-top: 48px;
+}
+.m-auto{
+  width: 350px;
+  margin: auto;
 }
 h1 {
   font-size: 40px;
@@ -115,7 +125,7 @@ h3 {
 h4 {
   font-weight: 300;
   line-height: 28.5px;
-  color:  rgb(0, 0, 30);
+  color: #4D6080;
   font-size: 17.5px;
 }
 h4 b{
@@ -197,6 +207,9 @@ p {
 .pb-35{
   padding-bottom: 35px;
 }
+.mb-15{
+  margin-bottom: 15px;
+}
 .mb-23 {
   margin-bottom: 23px;
 }
@@ -205,6 +218,12 @@ p {
 }
 .pd-0{
   padding: 0;
+}
+.pointer:hover{
+  cursor: pointer;
+}
+.m-0{
+  margin: 0;
 }
 
 /* HEADER SECTION */
@@ -231,6 +250,9 @@ p {
   #iqwew{
     bottom: 150px!important;
   }
+  #iqrco{
+    bottom: 300px !important;
+  }
 }
 @media screen and (max-width: 220px){
   .header-img{
@@ -239,6 +261,10 @@ p {
 }
 @media screen and (max-width: 768px){
   #iqwew{
+    position: relative !important;
+    bottom: 0 !important;
+  }
+  #iqrco{
     position: relative !important;
     bottom: 0 !important;
   }
@@ -265,6 +291,10 @@ p {
   }
   #iqclp{
     border-radius: 9px;
+  }
+  #iqoAh{
+    margin: auto !important;
+    width: 350px;
   }
 }
 @media screen and (max-width: 192px){
@@ -797,4 +827,89 @@ img {
 }
 .h5-f18{
   font-size: 16px;
+}
+
+/* dakujemeZaSpolupracu section */
+
+.h-50{
+  height: 50px !important;
+}
+.h-40{
+  height: 40px !important;
+}
+.h-60{
+  height: 60px !important;
+}
+.h-70{
+  height: 70px !important;
+}
+.h-80{
+  height: 80px !important;
+}
+
+/*  drilleo Section */
+.h-90{
+  height: 90px;
+}
+#iqf8o{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.btn{
+  border-radius: 2px;
+  padding: 8px 15px;
+  border-style: none;
+  font-size: 14px;
+}
+.btn-primary{
+  background-color: rgb(130, 50, 255);
+}
+.btn-primary:hover{
+  background-color: rgb(94, 24, 185);
+}
+#iq0po{
+  display: flex;
+  justify-content: center;
+  padding: 35px 0px;
+}
+
+/* miliUcitelia section */
+
+#iqpco{
+  position: relative;
+  background-color: rgb(140, 52, 255);
+}
+#iqmgo{
+  max-height: 500px;
+}
+#iqrco{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+#iqqol{
+  padding-top: 120px;
+  padding-right: 40px;
+}
+#iqhst{
+  padding-bottom: 120px;
+}
+
+/* openAcademy section  */
+
+#iqoAh{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#iqmog{
+  height: 100px;
+}
+#iqllk{
+  font-size: 20px;
+  outline: none !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 350px;
 }
