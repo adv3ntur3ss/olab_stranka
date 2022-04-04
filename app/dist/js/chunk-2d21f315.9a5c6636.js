@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21f315"],{d97a:function(t,e,n){"use strict";n.r(e);var a=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},s=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"mb-70 pdt-60 container"},[n("h1",{staticClass:"hlc"},[n("b",[t._v("Pridajte sa k nám!")]),n("br"),t._v(" My všetci sme OpenLab ")])])}],c=n("2877"),r={},i=Object(c["a"])(r,a,s,!1,null,null,null);e["default"]=i.exports}}]);
-//# sourceMappingURL=chunk-2d21f315.9a5c6636.js.map
