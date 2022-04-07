@@ -26,7 +26,7 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
         'zapojSaDoOpenlabu': () => import('../reusables/reusables-home/zapojSaDoOpenlabuSection/r-zapojSaDoOpenlabu.vue'),
         'programovanieDigTech': () =>import('../reusables/reusables-home/programovanieDigTechSection/r-programovanieDigTech.vue'),
         'precoSaStatStudentom': () => import('../reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue'),

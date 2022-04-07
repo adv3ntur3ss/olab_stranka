@@ -7,8 +7,8 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
-        'layout-footer': () => import('../layout/layout-footer.vue')
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
+        'layout-footer': () => import('@/plugins/visivig/layout/layout-footer.vue')
     }
         
 }

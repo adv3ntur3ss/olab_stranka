@@ -13,7 +13,7 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
         'ktoStojiZaOpenlabom': () => import('../reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
         'r-hr': () => import('../reusables/reusables-universal/hrSection/r-hr.vue'),
         'nasaVizia': () => import('../reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),

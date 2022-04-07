@@ -11,7 +11,7 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
         'layout-footer': () => import('../layout/layout-footer.vue'),
         'imagesPredDakujeme': () => import('../reusables/reusables-universal/imagesPredDakujemeSection/r-imagesPredDakujeme.vue'),
         'dakujemeZaPodporu': () => import('../reusables/reusables-universal/dakujemeZaPodporuSection/r-dakujemeZaPodporu.vue'),

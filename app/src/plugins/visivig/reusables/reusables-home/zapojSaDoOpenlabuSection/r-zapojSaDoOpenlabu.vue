@@ -15,7 +15,7 @@
           </h4>
         </div>
         <div class="col-md-6 col-r">
-            <img id="iqwew" src="./assets/5ea6d7142dd19Untitled-2.png">
+          <img id="iqwew" src="./assets/5ea6d7142dd19Untitled-2.png" />
         </div>
       </div>
     </div>

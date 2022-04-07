@@ -5,7 +5,7 @@
         <div id="iartq" class="col-md-6">
           <h5 id="ihr5q" class="hlc">Školy v OpenLabe</h5>
           <hr id="ihr3q" />
-          <h2 id="ih2wr"  class="hlc">
+          <h2 id="ih2wr" class="hlc">
             Open Academy je online vzdelávací portál. Skladá sa z verejnej
             databázy všetkých lekcií.
           </h2>
@@ -27,7 +27,7 @@
           >
         </div>
         <div id="iaqtr" class="col-md-6">
-            <img src="./assets/5ea7e9ddd14baopenacademy.png">
+          <img src="./assets/5ea7e9ddd14baopenacademy.png" />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div id="iqpdm" class="purple-div mb-70">
-    <div class="container center ">
+    <div class="container center">
       <h1 class="white-text hlc">
         <b>Venujte nám 2 %</b>
         <br />

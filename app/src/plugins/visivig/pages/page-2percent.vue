@@ -9,7 +9,7 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
         'venujteNamDve': () => import('../reusables/reusables-2percent/venujteNamDveSection/r-venujteNamDve.vue'),
         'naDarovanie': () => import('../reusables/reusables-2percent/naDarovanieSection/r-naDarovanie.vue'),
         'layout-footer': () => import('../layout/layout-footer.vue'),

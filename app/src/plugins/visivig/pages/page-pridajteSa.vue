@@ -1,8 +1,8 @@
 <template>
 <div>
     <layout-header/>
-    <vzdelavanieJe/>
-    <spajamePre/>
+    <r-vzdelavanie-je/>
+    <r-spajame-pre/>
     <myVsetci/>
     <kNasimAktivitam/>
     <podporteNas/>
@@ -21,9 +21,9 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
-        'vzdelavanieJe': () => import('../reusables/reusables-pridajteSa/vzdelavanieJeSection/r-vzdelavanieJe.vue'),
-        'spajamePre': () => import('../reusables/reusables-pridajteSa/spajamePreSection/r-spajamePre.vue'),
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
+        'r-vzdelavanie-je': () => import('../reusables/reusables-pridajteSa/vzdelavanieJeSection/r-vzdelavanieJe.vue'),
+        'r-spajame-pre': () => import('../reusables/reusables-pridajteSa/spajamePreSection/r-spajamePre.vue'),
         'myVsetci': () => import('../reusables/reusables-pridajteSa/myVsectiSection/r-myVsetci.vue'),
         'kNasimAktivitam': () => import('../reusables/reusables-pridajteSa/kNasimAktivitamSection/r-kNasimAktivitam.vue'),
         'podporteNas': () => import('../reusables/reusables-pridajteSa/podporteNasSection/r-podporteNas.vue'),

@@ -46,6 +46,6 @@
         </p>
       </div>
     </div>
-    <hr>
+    <hr />
   </div>
 </template>

@@ -10,10 +10,7 @@
     <div class="row">
       <div class="col-r col-md">
         <div class="pb-15">
-          <img
-            class="lab-img"
-            src="./assets/5ea1646181a695ea0a1b0305127.png"
-          />
+          <img class="lab-img" src="./assets/5ea1646181a695ea0a1b0305127.png" />
           <h3 class="mb-23">
             Vyber si tech oblasť
             <br />
@@ -61,11 +58,7 @@
             firme. Stačí Ti pozitívny prístup a proaktivita a svoj free time
             môžeš stráviť namiesto McDonaldu v cool firme.
           </p>
-          <a
-            class="hlc preco-a"
-            href="/home"
-            >Pripravujeme</a
-          >
+          <a class="hlc preco-a" href="/home">Pripravujeme</a>
         </div>
       </div>
     </div>

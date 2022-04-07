@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div id="iqqol" class="col-md-6">
-          <h1  class="white-text hlc">
+          <h1 class="white-text hlc">
             Milí učitelia, rozšírte svoje učebné osnovy o to najnovšie zo sveta
             technológií
           </h1>

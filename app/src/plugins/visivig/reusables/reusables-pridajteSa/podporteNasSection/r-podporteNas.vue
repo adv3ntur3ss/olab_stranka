@@ -65,8 +65,8 @@
           Staňte sa našim dobrovoľníkom. Radi Vás spoznáme a porozprávame sa o
           tom, ako by ste nám mohli pomôcť s ohľadom na to, čo Vás baví a kde sa
           chcete rozvíjať. V OpenLabe máme skvelých dobrovoľníkov, ktorých pomoc
-          je pre nás veľkým prínosom. <br>
-          Ozvite sa nám na  <a href="mailto:info@openlab.sk">info@openlab.sk</a>
+          je pre nás veľkým prínosom. <br />
+          Ozvite sa nám na <a href="mailto:info@openlab.sk">info@openlab.sk</a>
         </p>
       </div>
     </div>

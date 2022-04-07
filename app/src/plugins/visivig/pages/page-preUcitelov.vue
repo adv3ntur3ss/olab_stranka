@@ -13,7 +13,7 @@
 <script>
 export default {
     components: {
-        'layout-header': () => import('../layout/layout-header.vue'),
+        'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
         'miliUcitelia': () => import('../reusables/reusables-preUcitelov/miliUciteliaSection/r-miliUcitelia.vue'),
         'openAcademy': () => import('../reusables/reusables-preUcitelov/openAcademySection/r-openAcademy.vue'),
         'akeTemy': () => import('../reusables/reusables-preUcitelov/akeTemySection/r-akeTemy.vue'),

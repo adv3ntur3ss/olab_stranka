@@ -51,7 +51,9 @@
     <div class="row mb-70">
       <div class="col-md">
         <img class="lab-img" src="./assets/4.png" />
-        <h3 class="mb-23 hlc">Tech firmy, spolupracujte s mladými IT talentmi!</h3>
+        <h3 class="mb-23 hlc">
+          Tech firmy, spolupracujte s mladými IT talentmi!
+        </h3>
         <p class="mb-23 hlc">
           V OpenLabe sa môžete stať tech garantom a učiť študentov váš tech
           stack. Môžete spolupracovať na projektoch alebo osloviť študentov k

@@ -42,13 +42,17 @@
         ><img src="./assets/5f823189f210bSK-NIC.png" class="m-0"
       /></a>
       <a href="https://www.fpu.sk/sk/" target="_blank">
-        <img src="./assets/5f8230a562a23FPU_logo4_bielenamodrom.jpeg" class="h-70 m-0"
+        <img
+          src="./assets/5f8230a562a23FPU_logo4_bielenamodrom.jpeg"
+          class="h-70 m-0"
       /></a>
       <a href="https://spolocnost.o2.sk/ferova-nadacia" target="_blank"
         ><img src="./assets/5f8230e9b4923intro-image.png" class="h-50 m-0"
       /></a>
       <a href="https://www.nadaciaorange.sk/sk/" target="_blank"
-        ><img src="./assets/5f82311adfaff25-nadacia_logo_new.jpeg" class="h-60 m-0"
+        ><img
+          src="./assets/5f82311adfaff25-nadacia_logo_new.jpeg"
+          class="h-60 m-0"
       /></a>
     </div>
     <div class="image-flexbox">
@@ -71,6 +75,6 @@
         ><img src="./assets/dennikn.jpeg" class="h-80 m-0"
       /></a>
     </div>
-    <hr>
+    <hr />
   </div>
 </template>
