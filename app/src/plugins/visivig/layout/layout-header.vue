@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="container">
-      <div class="navbar-container">
-        <div class="navbar-left-side">
+      <div class="navbar-container d-flex">
+        <div class="navbar-left-side d-flex">
           <div class="header-img">
             <a href="/home">
               <img id="iqiom" src="./assets/5eb1d693b4315openlab-logo.png" />

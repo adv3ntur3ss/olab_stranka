@@ -1,9 +1,7 @@
 <template>
 <div>
     <layout-header/>
-    <r-kto-stoji-za-openlabom/>
-    <r-hr/>
-    <r-nasa-vizia/>
+    <r-v-openlabe-spajame/>
     <r-images-pred-dakujeme/>
     <r-dakujeme-za-podporu/>
     <r-newsletter/>
@@ -14,13 +12,11 @@
 export default {
     components: {
         'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
-        'r-kto-stoji-za-openlabom': () => import('@/plugins/visivig/reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
-        'r-hr': () => import('@/plugins/visivig/reusables/reusables-universal/hrSection/r-hr.vue'),
-        'r-nasa-vizia': () => import('@/plugins/visivig/reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),
+        'r-v-openlabe-spajame': () => import('@/plugins/visivig/reusables/reusables-nasTim/vOpenLabeSpajameSection/r-vOpenLabeSpajame.vue'),
         'r-images-pred-dakujeme': () => import('@/plugins/visivig/reusables/reusables-universal/imagesPredDakujemeSection/r-imagesPredDakujeme.vue'),
         'r-dakujeme-za-podporu': () => import('@/plugins/visivig/reusables/reusables-universal/dakujemeZaPodporuSection/r-dakujemeZaPodporu.vue'),
         'r-newsletter': () => import('@/plugins/visivig/reusables/reusables-universal/newsletterSection/r-newsletter.vue'),
-        'layout-footer': () => import('@/plugins/visivig/layout/layout-footer.vue')
+        'layout-footer': () => import('@/plugins/visivig/layout/layout-footer.vue'),
     }
         
 }

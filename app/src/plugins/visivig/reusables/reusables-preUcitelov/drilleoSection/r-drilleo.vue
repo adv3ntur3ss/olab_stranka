@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
-        <div id="iqf8o">
+        <div id="iqf8o" class="d-flex">
           <img src="./assets/5f82412c33b0bDrilleo-Logo-3.png" class="h-90" />
         </div>
       </div>
@@ -21,7 +21,7 @@
         </h4>
       </div>
     </div>
-    <div id="iq0po" class="mb-70">
+    <div id="iq0po" class="d-flex mb-70">
       <a href=""
         ><button class="btn btn-primary">Chcem testovať na diaľku</button></a
       >

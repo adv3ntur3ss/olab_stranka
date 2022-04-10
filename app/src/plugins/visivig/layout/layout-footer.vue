@@ -22,7 +22,7 @@
         </a>
       </div>
       <div class="col-md">
-        <div class="flex content-end social-icons">
+        <div class="d-flex content-end social-icons">
           <a href="https://www.facebook.com/OpenLab.sk/" target="_blank">
             <img src="./assets/facebook.png" />
           </a>

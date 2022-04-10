@@ -2,7 +2,7 @@
   <div class="container">
     <div class="mb-50 row">
       <div class="col-md col-sm-12">
-        <div id="iqoAh">
+        <div id="iqoAh" class="d-flex">
           <img id="iqmog" src="./assets/5f8487648f3e8openacademy-1.svg" />
         </div>
       </div>

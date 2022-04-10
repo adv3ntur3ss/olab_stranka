@@ -1,25 +1,25 @@
 <template>
 <div>
     <layout-header/>
-    <zapojSaDoOpenlabu/>
-    <programovanieDigTech/>
-    <precoSaStatStudentom/>
+    <r-zapoj-sa-do-openlabu/>
+    <r-programovanie-dig-tech/>
+    <r-preco-sa-stat-studentom/>
     <r-hr/>
-    <openlabPosuva/>
-    <pridajteSaKNam/>
-    <sliderControlCards/>
-    <sliderCard/>
-    <studentskeProjekty/>
-    <studentskeProjektyCard/>
-    <cimSmeVynimocni/>
-    <ktoStojiZaOpenlabom/>
+    <r-openlab-posuva/>
+    <r-pridajte-sa-k-nam/>
+    <r-slider-control-cards/>
+    <r-slider-card/>
+    <r-studentske-projekty/>
+    <r-studentske-projekty-card/>
+    <r-cim-sme-vynimocni/>
+    <r-kto-stoji-za-openlabom/>
     <r-hr/>
-    <nasaVizia/>
+    <r-nasa-vizia/>
     <r-hr/>
-    <napisaliONas/>
-    <imagesPredDakujeme/>
-    <dakujemeZaPodporu/>
-    <newsletter/>
+    <r-napisali-o-nas/>
+    <r-images-pred-dakujeme/>
+    <r-dakujeme-za-podporu/>
+    <r-newsletter/>
     <layout-footer/>
 </div>
 </template>
@@ -27,24 +27,24 @@
 export default {
     components: {
         'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
-        'zapojSaDoOpenlabu': () => import('../reusables/reusables-home/zapojSaDoOpenlabuSection/r-zapojSaDoOpenlabu.vue'),
-        'programovanieDigTech': () =>import('../reusables/reusables-home/programovanieDigTechSection/r-programovanieDigTech.vue'),
-        'precoSaStatStudentom': () => import('../reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue'),
-        'r-hr': () => import('../reusables/reusables-universal/hrSection/r-hr.vue'),
-        'openlabPosuva': () => import('../reusables/reusables-universal/openlabPosuvaSection/r-openlabPosuva.vue'),
-        'pridajteSaKNam': () => import('../reusables/reusables-home/pridajteSaKNamSection/r-pridajteSaKNam.vue'),
-        'sliderControlCards': () => import('../reusables/reusables-home/sliderControlCards/r-sliderControlCards.vue'),
-        'sliderCard': () => import('../reusables/reusables-home/sliderCard/r-sliderCard.vue'),
-        'studentskeProjekty': () => import('../reusables/reusables-home/studentskeProjektySection/r-studentskeProjekty.vue'),
-        'studentskeProjektyCard': () => import('../reusables/reusables-home/studentskeProjektyCardSection/r-studentskeProjektyCard.vue'),
-        'cimSmeVynimocni': () => import('../reusables/reusables-home/cimSmeVynimocniSection/r-cimSmeVynimocni.vue'),
-        'ktoStojiZaOpenlabom': () => import('../reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
-        'nasaVizia': () => import('../reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),
-        'napisaliONas': () => import('../reusables/reusables-home/napisaliONasSection/r-napisaliONas.vue'),
-        'imagesPredDakujeme': () => import('../reusables/reusables-universal/imagesPredDakujemeSection/r-imagesPredDakujeme.vue'),
-        'dakujemeZaPodporu': () => import('../reusables/reusables-universal/dakujemeZaPodporuSection/r-dakujemeZaPodporu.vue'),
-        'newsletter': () => import('../reusables/reusables-universal/newsletterSection/r-newsletter.vue'),
-        'layout-footer': () => import('../layout/layout-footer.vue'),
+        'r-zapoj-sa-do-openlabu': () => import('@/plugins/visivig/reusables/reusables-home/zapojSaDoOpenlabuSection/r-zapojSaDoOpenlabu.vue'),
+        'r-programovanie-dig-tech': () =>import('@/plugins/visivig/reusables/reusables-home/programovanieDigTechSection/r-programovanieDigTech.vue'),
+        'r-preco-sa-stat-studentom': () => import('@/plugins/visivig/reusables/reusables-home/precoSaStatStudentomSection/r-precoSaStatStudentom.vue'),
+        'r-hr': () => import('@/plugins/visivig/reusables/reusables-universal/hrSection/r-hr.vue'),
+        'r-openlab-posuva': () => import('@/plugins/visivig/reusables/reusables-universal/openlabPosuvaSection/r-openlabPosuva.vue'),
+        'r-pridajte-sa-k-nam': () => import('@/plugins/visivig/reusables/reusables-home/pridajteSaKNamSection/r-pridajteSaKNam.vue'),
+        'r-slider-control-cards': () => import('@/plugins/visivig/reusables/reusables-home/sliderControlCards/r-sliderControlCards.vue'),
+        'r-slider-card': () => import('@/plugins/visivig/reusables/reusables-home/sliderCard/r-sliderCard.vue'),
+        'r-studentske-projekty': () => import('@/plugins/visivig/reusables/reusables-home/studentskeProjektySection/r-studentskeProjekty.vue'),
+        'r-studentske-projekty-card': () => import('@/plugins/visivig/reusables/reusables-home/studentskeProjektyCardSection/r-studentskeProjektyCard.vue'),
+        'r-cim-sme-vynimocni': () => import('@/plugins/visivig/reusables/reusables-home/cimSmeVynimocniSection/r-cimSmeVynimocni.vue'),
+        'r-kto-stoji-za-openlabom': () => import('@/plugins/visivig/reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
+        'r-nasa-vizia': () => import('@/plugins/visivig/reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),
+        'r-napisali-o-nas': () => import('@/plugins/visivig/reusables/reusables-home/napisaliONasSection/r-napisaliONas.vue'),
+        'r-images-pred-dakujeme': () => import('@/plugins/visivig/reusables/reusables-universal/imagesPredDakujemeSection/r-imagesPredDakujeme.vue'),
+        'r-dakujeme-za-podporu': () => import('@/plugins/visivig/reusables/reusables-universal/dakujemeZaPodporuSection/r-dakujemeZaPodporu.vue'),
+        'r-newsletter': () => import('@/plugins/visivig/reusables/reusables-universal/newsletterSection/r-newsletter.vue'),
+        'layout-footer': () => import('@/plugins/visivig/layout/layout-footer.vue'),
     }
         
 }
