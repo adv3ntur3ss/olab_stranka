@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-70">
+  <div id="footer-center" class="container mb-70">
     <div class="row">
       <div class="pd015 col-md">
         <img id="m20028" src="./assets/logo.png" />

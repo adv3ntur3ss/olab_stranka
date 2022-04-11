@@ -1,5 +1,5 @@
 <template>
-  <div class="blue-div mb-70">
+  <div id="cim-sme-vynimocni-center" class="blue-div mb-70">
     <div class="pdtb-80 container">
       <h1 class="hlc white-text">Čím sme výnimoční?</h1>
       <div class="pdtb-10 row">

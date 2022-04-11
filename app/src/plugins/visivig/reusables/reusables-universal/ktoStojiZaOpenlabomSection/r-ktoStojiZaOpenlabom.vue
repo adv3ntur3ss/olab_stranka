@@ -1,6 +1,6 @@
 <template>
   <div class="mb-70 pd30-0 container">
-    <div class="row">
+    <div id="kto-stoji" class="row">
       <div id="idcol4" class="col-md-4">
         <h1 class="hlc">Kto stojí za OpenLabom?</h1>
         <h4 class="hlc">

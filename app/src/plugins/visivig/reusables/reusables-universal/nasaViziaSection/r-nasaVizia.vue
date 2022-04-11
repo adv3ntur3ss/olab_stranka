@@ -12,7 +12,7 @@
       </div>
       <div>Naša motivácia vyplýva z 3 základných dôvodov:</div>
     </h4>
-    <div class="row">
+    <div id="nasa-vizia" class="row">
       <div class="col-md">
         <div class="card-pad">
           <img
