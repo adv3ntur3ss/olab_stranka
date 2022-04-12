@@ -8,7 +8,7 @@
         <h4 id="h4nws2" class="hlc">čerstvé informácie o živote v Openlabe</h4>
       </div>
       <div class="col-md">
-        <div class="block">
+        <div class="d-flex">
           <input class="nwsltr-input" placeholder="Sem napíšte svoj email" />
           <button class="nwsltr-btn button-blue">Odoslať</button>
         </div>

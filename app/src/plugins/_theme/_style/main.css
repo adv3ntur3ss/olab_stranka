@@ -246,8 +246,14 @@ hr {
   
 }
 @media only screen and (max-width: 991px) {
+  .card{
+    padding: 20px;
+  }
   #iqdor{
     flex-direction: column;
+  }
+  #h1-700{
+    padding-top: 0px !important;
   }
   #iaqtr{
     width: 100% !important;
@@ -280,9 +286,31 @@ hr {
   }
 }
 @media screen and (max-width: 768px) {
+  #iqwaq{
+    flex-direction: column;
+  }
+  #iiwaq{
+    text-align: center;
+    max-width: 100% !important;
+  }
+  #zapoj-sa-img-width{
+    width: 100%;
+  }
+  #zapoj-sa-div-width{
+    width: 100%;
+  }
+  #zapoj-sa{
+    text-align: center;
+  }
   .content-end {
     justify-content: center !important;
     margin-top: 10px;
+  }
+  #h1-700{
+    padding-top: 30px !important;
+  }
+  #icpl{
+    text-align: center;
   }
   #footer-center{
     text-align: center;
@@ -320,9 +348,13 @@ hr {
   }
   #idcol5 {
     border-radius: 9px;
+    border-bottom-left-radius: 0px !important ;
+    border-bottom-right-radius: 0px;
   }
   #iimgq {
     border-radius: 9px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
   #iqclp {
     border-radius: 9px;
@@ -348,16 +380,23 @@ hr {
     padding-left: 30px;
     padding-top: 20px;
   }
-  /* #app {
-    width: 100vw;
-    text-align: center;
-  } */
+  #idcol5, #idcol7{
+    max-width: 470px;
+    margin: auto;
+  }
   .content-end {
     justify-content: center !important;
   }
 }
-@media screen and (max-width: 460px) {
-
+@media screen and (max-width: 495px) {
+  #idcol5{
+    max-width: 350px;
+    margin: auto;
+    border-radius: 9px !important;
+  }
+  #idcol7{
+    display: none;
+  }
 }
 @media screen and (max-width: 220px) {
   .header-img {
@@ -460,6 +499,7 @@ img {
 #m20028 {
   max-width: 200px;
   height: 28px;
+  margin-bottom: 10px;
 }
 
 /* dakujemeZaPodporu Section */
@@ -532,12 +572,9 @@ img {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-left: 0.2rem;
   border: 1px solid #ccc;
   width: 85%;
-}
-.block .nwsltr-btn {
-  position: absolute;
 }
 
 /* napisaliONas section */
@@ -734,14 +771,12 @@ img {
 /* sliderCard section */
 
 #idcol5 {
-  flex-basis: 41.666667%;
   padding: 40px;
   background-color: rgb(22, 165, 84);
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
 }
 #idcol7 {
-  flex-basis: 58.333333%;
   padding: 0px;
   border-bottom-right-radius: 9px;
   border-top-right-radius: 9px;
