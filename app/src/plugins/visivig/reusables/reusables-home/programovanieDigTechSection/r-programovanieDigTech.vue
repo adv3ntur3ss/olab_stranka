@@ -2,7 +2,7 @@
   <div id="ioopq" class="gradient">
     <div class="container">
       <div class="row">
-        <div class="col-md">
+        <div id="glasnk-opacne" class="col-md">
           <img src="./assets/620a24b2ea8c7openlab.png" />
         </div>
         <div id="icpl" class="col-md">

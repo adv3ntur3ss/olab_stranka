@@ -1,4 +1,7 @@
 /* GLOBAL */
+#app{
+  overflow-x: hidden;
+}
 
 /* fonts */
 a {
@@ -162,11 +165,6 @@ img {
 .blue-div {
   background-color: rgb(53, 151, 255);
 }
-.card {
-  display: flex;
-  flex-direction: column;
-  border-style: none !important;
-}
 .card-body-number {
   display: flex;
   flex-direction: column;
@@ -189,8 +187,8 @@ img {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  padding: 20px;
+  border: none !important;
 }
 .card-c-1 {
   color: rgb(106, 83, 169);
@@ -246,9 +244,6 @@ hr {
   
 }
 @media only screen and (max-width: 991px) {
-  .card{
-    padding: 20px;
-  }
   #iqdor{
     flex-direction: column;
   }
@@ -286,6 +281,19 @@ hr {
   }
 }
 @media screen and (max-width: 768px) {
+  .vynimocni-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .slider-action-img{
+    display: none;
+  }
+  #ioopq{
+    padding-top: 10px !important;
+  }
+  #glasnk-opacne{
+    display: none;
+  }
   #iqwaq{
     flex-direction: column;
   }
@@ -387,6 +395,16 @@ hr {
   .content-end {
     justify-content: center !important;
   }
+  .slider-cards-p{
+    padding-right: 10px !important;
+  }
+  .cardC{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  #ipdaq{
+   padding-bottom: 30px !important; 
+  }
 }
 @media screen and (max-width: 495px) {
   #idcol5{
@@ -396,6 +414,9 @@ hr {
   }
   #idcol7{
     display: none;
+  }
+  #idcards{
+    margin-top: 20px !important;
   }
 }
 @media screen and (max-width: 220px) {
@@ -472,17 +493,6 @@ img {
 
 /*    FOOTER SECTION    */
 
-.col {
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  flex-grow: 1;
-  max-width: 100%;
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .social-icons img {
   max-height: 20px;
   margin: 0px 7px 0px 7px;

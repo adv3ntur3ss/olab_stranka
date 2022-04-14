@@ -10,7 +10,7 @@
               src="./assets/5ea164d2a80fd5ea09fed5409d1.png"
             />
             <h3 class="white-text hlc mb-23">Partnerský prístup</h3>
-            <p class="white-text hlc mb-23">
+            <p class="vynimocni-padding white-text hlc mb-23">
               dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca
               LabMastra a študentov je v partnerskej rovine.
             </p>
@@ -20,7 +20,7 @@
           <div class="pb-15">
             <img class="lab-img" src="./assets/2.png" />
             <h3 class="white-text hlc mb-23">LabMaster</h3>
-            <p class="white-text hlc mb-23">
+            <p class="vynimocni-padding white-text hlc mb-23">
               je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a
               sprevádza študentov pri dosahovaní míľnikov.
             </p>
@@ -30,7 +30,7 @@
           <div class="pb-15">
             <img class="lab-img" src="./assets/3.png" />
             <h3 class="white-text hlc mb-23">Učebný blok</h3>
-            <p class="white-text hlc mb-23">
+            <p class="vynimocni-padding white-text hlc mb-23">
               je základný dokument, z ktorého sa študenti učia. Obsahuje všetky
               vzdelávacie podklady pre konkrétnu fázu.
             </p>
@@ -42,7 +42,7 @@
           <div class="pb-15">
             <img class="lab-img" src="./assets/4.png" />
             <h3 class="white-text hlc mb-23">"Problem driven"</h3>
-            <p class="white-text hlc mb-23">
+            <p class="vynimocni-padding white-text hlc mb-23">
               je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému
               mysleniu s cieľom vyriešiť konkrétne problémy.
             </p>
@@ -52,7 +52,7 @@
           <div class="pb-15">
             <img class="lab-img" src="./assets/5.png" />
             <h3 class="white-text hlc mb-23">"Project driven"</h3>
-            <p class="white-text hlc mb-23">
+            <p class="vynimocni-padding white-text hlc mb-23">
               po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v
               spolupráci s firmami tvoria konkrétny projekt pre zákazníka.
             </p>
@@ -62,7 +62,7 @@
           <div class="pb-15">
             <img class="lab-img" src="./assets/6.png" />
             <h3 class="white-text hlc mb-23">Samoštúdium</h3>
-            <p class="white-text hlc mb-23">
+            <p class="vynimocni-padding white-text hlc mb-23">
               študenti trávia 80% času samoštúdiom a sú vedení k tímovej
               spolupráci. 20% teórie slúži iba ako odrazový mostík.
             </p>
