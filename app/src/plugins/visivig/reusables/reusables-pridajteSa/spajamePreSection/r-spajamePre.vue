@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="spajame" class="container">
     <h4 class="hlc center">
       V OpenLabe spájame organizácie a ľudí, ktorí vnímajú vzdelávanie ako
       kľúčovú oblasť pre budúcnosť Slovenska a chcú aktívne prispieť k

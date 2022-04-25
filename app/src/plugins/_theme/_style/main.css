@@ -1,6 +1,16 @@
 /* GLOBAL */
-#app{
+body{
   overflow-x: hidden;
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px !important;
+  }
+}
+.navbar-toggler{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 /* fonts */
@@ -236,6 +246,19 @@ hr {
   #iaqtr {
     padding-top: 150px !important;
   }
+  #student-06{
+    margin-left: 150px !important;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #student-06{
+    margin-left: 100px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #iqrco{
+    top: 130px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .navbar-display {
@@ -244,6 +267,9 @@ hr {
   
 }
 @media only screen and (max-width: 991px) {
+  #novinky-img{
+    padding-top: 50px;
+  }
   #iqdor{
     flex-direction: column;
   }
@@ -271,6 +297,9 @@ hr {
     padding-left: 0 !important;
     padding: 10px;
   }
+  #student-06{
+   margin-left: 50px !important;
+  }
   #iqrco {
     bottom: 300px !important;
   }
@@ -281,6 +310,19 @@ hr {
   }
 }
 @media screen and (max-width: 768px) {
+  #iqrpb{
+    padding-bottom: 0px !important;
+  }
+  #student-06{
+    margin-left: 0px !important;
+  }
+  #novinky-img{
+    padding-top: 0px;
+    padding-right: 60px;
+  }
+  #novinky-pd{
+    padding-bottom: 0px !important;
+  }
   .vynimocni-padding{
     padding-left: 15px;
     padding-right: 15px;
@@ -300,6 +342,44 @@ hr {
   #iiwaq{
     text-align: center;
     max-width: 100% !important;
+  }
+  #co-sa-uci-1{
+    text-align: center;
+  }
+  #novinky-pd{
+    text-align: center;
+  }
+  #ake-temy{
+    text-align: center;
+  }
+  #drilleo-sm{
+    text-align: center;
+  }
+  #drilleo-img{
+    margin: auto;
+    width: auto;
+    padding-bottom: 20px;
+  }
+  #pad-top-med{
+    padding-top: 0px !important;
+  }
+  .image-flexbox .dril{
+    padding: 5px;
+  }
+  #skus-ucitel-flex{
+    flex-direction: column;
+  }
+  #skusenosti{
+    text-align: center;
+  }
+  #iqpbt{
+    text-align: center;
+  }
+  #iqqol{
+    text-align: center;
+  }
+  #open-academy{
+    text-align: center;
   }
   #zapoj-sa-img-width{
     width: 100%;
@@ -346,6 +426,16 @@ hr {
   }
   #iqooq {
     display: block !important;
+    padding: 20px;
+  }
+  #iqoop{
+    text-align: center;
+  }
+  #spajame{
+    text-align: center;
+  }
+  #podporte-op{
+    text-align: center;
   }
   #iartq {
     max-width: 100% !important;
@@ -366,10 +456,16 @@ hr {
   }
   #iqclp {
     border-radius: 9px;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
   }
   #iqoAh {
     margin: auto !important;
     width: 350px;
+    padding-bottom: 20px;
+  }
+  #op-ac-btn{
+    width: auto !important;
   }
 }
 @media screen and (max-width: 610px) {
@@ -384,6 +480,9 @@ hr {
   }
 }
 @media screen and (max-width: 575px) {
+  #iqhst{
+    padding-bottom: 10px !important;
+  }
   .col-r {
     padding-left: 30px;
     padding-top: 20px;
@@ -433,6 +532,11 @@ hr {
 
 /* HEADER SECTION */
 
+.navbar-toggler{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
 .navbar-left-side {
   align-items: center;
 }
@@ -828,6 +932,12 @@ img {
   margin-bottom: 35px;
   height: 300px;
 }
+#skusenosti-1{
+  padding-bottom: 20px;
+}
+#skusenosti-2{
+  padding-bottom: 20px;
+}
 
 /* barboraRusinakova SEction */
 
@@ -994,4 +1104,25 @@ img {
   margin-left: 10px;
   margin-right: 10px;
   width: 350px;
+}
+
+/*  novinkyZOP Section  */
+#novinky-pd{
+  padding: 80px 20px 30px 20px;
+}
+
+/* coSaUci Section */
+
+.bg-div-green{
+  background-color: rgb(48, 161, 80);
+}
+#student-06{
+  max-height: 450px;
+  margin-left: 200px;
+}
+#co-sa-uci-container{
+  padding: 60px 10px 0 10px;
+}
+#co-sa-uci-1{
+  padding: 60px 15px;
 }

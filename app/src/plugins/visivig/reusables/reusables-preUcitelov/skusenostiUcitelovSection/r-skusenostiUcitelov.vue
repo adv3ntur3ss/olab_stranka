@@ -1,15 +1,15 @@
 <template>
-  <div class="container">
+  <div id="skusenosti" class="container">
     <div class="center">
       <h1 class="mb-70 hlc">Skúsenosti učiteľov</h1>
     </div>
-    <div class="row">
+    <div id="skus-ucitel-flex" class="row">
       <div class="col col-md-6 col-sm-12">
         <img class="skusImg" src="./assets/5f8339d487632PR.jpeg" />
         <h2 class="hlc">
           Z učiteľa Petra Remiša na SPŠ IT v Kys. N. Meste je dnes LabMaster
         </h2>
-        <p class="hlc">
+        <p id="skusenosti-1" class="hlc">
           "Minulý školský rok som sa hodín OpenLabu na našej škole zúčastňoval
           ako pomocník. Hodiny s odborníkmi z praxe som absolvoval rovnako ako
           naši študenti a veľa som sa vďaka tomu naučil. Ak nemáte OpenLab na
@@ -24,7 +24,7 @@
           Drilleo využíva profesorka Lenka Vačoková na Ekonomickej Univerzite v
           Bratislave
         </h2>
-        <p class="hlc">
+        <p id="skusenosti-2" class="hlc">
           "Aplikáciu drilleo.sk som začala využívať začiatkom apríla. Prvé
           týždne výučby online som zrealizovala viacero testov na zopakovanie už
           prebratého učiva, ako aj učiva, ktoré si mali študenti naštudovať

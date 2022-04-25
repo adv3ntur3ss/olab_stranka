@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="ake-temy" class="container">
     <h1 class="hlc">Aké témy nájdete v OpenAcademy?</h1>
     <div class="row">
       <div class="col-md-4 col-sm-12">
@@ -9,7 +9,7 @@
           Hybridné aplikácie sú výsledkom najnovšieho technologického progresu,
           kedy jedným kódom vytvoríme aplikáciu pre takmer všetko s displayom.
           <b>
-            >Študenti sa tak učia pomocou jednej technológie vytvoriť aplikáciu
+            Študenti sa tak učia pomocou jednej technológie vytvoriť aplikáciu
             pre web aj mobilné zariadenia.
           </b>
           Zámerom je vytvoriť jednoduchú hybridnú aplikáciu pomocou HTML, CSS,

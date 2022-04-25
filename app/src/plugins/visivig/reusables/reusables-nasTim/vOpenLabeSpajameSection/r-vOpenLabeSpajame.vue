@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="pt-3 container">
     <h4 class="center hlc">
       V <b>OpenLabe Spájame</b> všetkých tých, ktorí vnímajú vzdelávanie ako
       kľúčovú oblasť pre budúcnosť Slovenska a chcú aktívne prispieť svojou

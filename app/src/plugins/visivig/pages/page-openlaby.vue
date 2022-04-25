@@ -1,6 +1,7 @@
 <template>
 <div>
     <layout-header/>
+    <r-co-sa-uci/>
     <r-kto-stoji-za-openlabom/>
     <r-hr/>
     <r-nasa-vizia/>
@@ -14,6 +15,7 @@
 export default {
     components: {
         'layout-header': () => import('@/plugins/visivig/layout/layout-header.vue'),
+        'r-co-sa-uci': () => import('@/plugins/visivig/reusables/reusables-openlaby/coSaUciSection/r-coSaUci.vue'),
         'r-kto-stoji-za-openlabom': () => import('@/plugins/visivig/reusables/reusables-universal/ktoStojiZaOpenlabomSection/r-ktoStojiZaOpenlabom.vue'),
         'r-hr': () => import('@/plugins/visivig/reusables/reusables-universal/hrSection/r-hr.vue'),
         'r-nasa-vizia': () => import('@/plugins/visivig/reusables/reusables-universal/nasaViziaSection/r-nasaVizia.vue'),

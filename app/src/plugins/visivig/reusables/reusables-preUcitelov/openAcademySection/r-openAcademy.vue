@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="open-academy" class="container">
     <div class="mb-50 row">
       <div class="col-md col-sm-12">
         <div id="iqoAh" class="d-flex">
@@ -20,7 +20,7 @@
         </h4>
       </div>
     </div>
-    <div class="m-auto">
+    <div id="op-ac-btn" class="m-auto">
       <a class="hlc" href="https://openlab.sk/skolenia" target="_blank"
         ><!-- temporary href kym page nie je spravena -->
         <button id="iqllk" class="btn btn-primary">

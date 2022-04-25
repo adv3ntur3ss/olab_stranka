@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div id="drilleo-sm" class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
+      <div id="drilleo-img" class="col-md-6 col-sm-12">
         <div id="iqf8o" class="d-flex">
           <img src="./assets/5f82412c33b0bDrilleo-Logo-3.png" class="h-90" />
         </div>
@@ -31,7 +31,7 @@
       <div class="col-md-4 col-sm-12">
         <img src="./assets/student.jpeg" />
       </div>
-      <div class="col-md-8 col-sm-12">
+      <div id="pad-top-med" class="pt-5 col-md-8 col-sm-12">
         <h4 class="hlc">
           Vytvárajte online testy pre svojich študentov.
           <br />

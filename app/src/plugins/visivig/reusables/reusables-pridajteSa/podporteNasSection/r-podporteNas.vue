@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-70">
+  <div id="podporte-op" class="container mb-70">
     <div class="center">
       <h1 class="hlc">Podporte OpenLab</h1>
     </div>
