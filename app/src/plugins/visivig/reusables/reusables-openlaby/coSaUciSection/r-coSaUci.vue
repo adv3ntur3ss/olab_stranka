@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-div-green mb-70">
+  <div class="bg-div-grn mb-70">
     <div id="co-sa-uci-container" class="container">
       <div class="row">
         <div id="co-sa-uci-1" class="col-md">

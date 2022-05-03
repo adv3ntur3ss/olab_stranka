@@ -31,7 +31,7 @@
 <div id="footer-center" class="container mb-70">
     <div class="row">
       <div class="pd015 col-md">
-        <img id="m20028" src="./assets/logo.png" />
+        <img id="m20028" src="/wp-content/themes/wp-bootstrap-starter/assets/images/logo.png" />
         <h4 id="f13h17">
           © 2020 Všetky práva vyhradené
           <br />
@@ -53,19 +53,19 @@
       <div class="col-md">
         <div class="d-flex content-end social-icons">
           <a href="https://www.facebook.com/OpenLab.sk/" target="_blank">
-            <img src="./assets/facebook.png" />
+            <img src="/wp-content/themes/wp-bootstrap-starter/assets/images/facebook.png" />
           </a>
           <a
             href="https://www.instagram.com/openlab.sk/?igshid=1xz2g75a3yzu1"
             target="_blank"
           >
-            <img src="./assets/instagram.png" />
+            <img src="/wp-content/themes/wp-bootstrap-starter/assets/images/instagram.png" />
           </a>
           <a
             href="https://www.linkedin.com/company/openlab-sk/?trk=public_profile_topcard_current_company&originalSubdomain=sk"
             target="_blank"
           >
-            <img src="./assets/linkedin.png" />
+            <img src="/wp-content/themes/wp-bootstrap-starter/assets/images/linkedin.png" />
           </a>
         </div>
       </div>

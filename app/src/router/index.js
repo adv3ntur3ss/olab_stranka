@@ -7,8 +7,6 @@ import openlaby from '../plugins/visivig/pages/page-openlaby.vue'
 import preUcitelov from '../plugins/visivig/pages/page-pre-ucitelov.vue'
 import pridajteSa from '../plugins/visivig/pages/page-pridajte-sa.vue'
 import novinky from '../plugins/visivig/pages/page-novinky.vue'
-// import header from '../plugins/visivig/layout/layout-header.vue'
-// import footer from '../plugins/visivig/layout/layout-footer.vue'
 
 Vue.use(VueRouter)
 
