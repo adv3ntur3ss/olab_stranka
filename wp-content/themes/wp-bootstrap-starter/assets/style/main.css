@@ -1152,12 +1152,15 @@ img {
 
 /* kali newsletter form  */
 
+
+#email1.input{
+  margin-top: 25px;
+}
 #submitbutton6.input{
-  margin-top: 30px;
+  margin-top: 25px;
   background-color: #4794f7;
   color: white;
   height: 37px;
-    color: white;
   border: none;
   padding: 8px 16px;
   border-radius: 2px;
@@ -1170,6 +1173,9 @@ img {
 }
 @media(max-width: 767px){
  #submitbutton6.input{
+   margin-top: 0px !important;
+ }
+ #email1.input{
    margin-top: 0px !important;
  } 
 }
