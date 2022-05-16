@@ -894,7 +894,12 @@ img {
 
 /* sliderCard section */
 
-
+.sa_owl_theme .owl-nav .owl-next {
+  display: none;
+}
+.sa_owl_theme .owl-nav .owl-previous {
+  display: none;
+}
 #yellow-slide{
   padding: 40px;
   background-color: #ff0;
