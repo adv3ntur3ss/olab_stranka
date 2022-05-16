@@ -88,6 +88,9 @@ p {
 
 /* Margin Padding */
 
+.wp-block-columns{
+  margin-bottom: 0px !important;
+}
 .m-0 {
   margin: 0;
 }
