@@ -1168,7 +1168,7 @@ img {
 #submitbutton6.input:hover{
   background-color: #8794f7;
 }
-@media(min-width: 768px){
+@media(max-width: 768px){
  #submitbutton6.input{
    margin-top: 0px !important;
  } 
