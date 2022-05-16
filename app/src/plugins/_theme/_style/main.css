@@ -1,5 +1,5 @@
 /* GLOBAL */
-#app{
+#page{
   overflow-x: hidden;
 }
 @media (min-width: 1400px) {
@@ -88,6 +88,13 @@ p {
 
 /* Margin Padding */
 
+
+#trp-floater-ls.trp-top-left{
+  left: 90% !important;
+}
+.wp-block-columns{
+  margin-bottom: 0px !important;
+}
 .m-0 {
   margin: 0;
 }
@@ -181,7 +188,8 @@ img {
   align-items: flex-end;
   justify-content: flex-end;
   min-height: 238px;
-  padding: 34px 23px;
+  padding-right: 18px;
+  padding-bottom: 34px;
   border-radius: 6px;
 }
 .card {
@@ -881,13 +889,25 @@ img {
   height: 20px;
 }
 #ipdaq {
-  padding: 0 0 100px 0;
+  padding: 0;
 }
 
 /* sliderCard section */
 
 
-#red-slide{
+#yellow-slide{
+  padding: 40px;
+  background-color: #ff0;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#blue-slide{
+  padding: 40px;
+  background-color: #00f;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#red-slide {
   padding: 40px;
   background-color: #f00;
   border-top-left-radius: 9px;
@@ -1116,6 +1136,7 @@ img {
 }
 
 /*  novinkyZOP Section  */
+
 #novinky-pd{
   padding: 80px 20px 30px 20px;
 }
@@ -1134,4 +1155,34 @@ img {
 }
 #co-sa-uci-1{
   padding: 60px 15px;
+}
+
+/* kali newsletter form  */
+
+
+#email1.input{
+  margin-top: 25px;
+}
+#submitbutton6.input{
+  margin-top: 27.5px;
+  background-color: #4794f7;
+  color: white;
+  height: 37px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  transition-duration: 300ms;
+}
+#submitbutton6.input:hover{
+  background-color: #8794f7;
+}
+@media(max-width: 767px){
+ #submitbutton6.input{
+   margin-top: 0px !important;
+ }
+ #email1.input{
+   margin-top: 0px !important;
+ } 
 }
