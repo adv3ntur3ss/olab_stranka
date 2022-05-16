@@ -887,6 +887,19 @@ img {
 
 /* sliderCard section */
 
+
+#yellow-slide{
+  padding: 40px;
+  background-color: #ff0;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#blue-slide{
+  padding: 40px;
+  background-color: #00f;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
 #red-slide {
   padding: 40px;
   background-color: #f00;
