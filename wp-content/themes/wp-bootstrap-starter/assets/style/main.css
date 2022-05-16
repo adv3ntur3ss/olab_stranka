@@ -1130,3 +1130,20 @@ img {
 #co-sa-uci-1{
   padding: 60px 15px;
 }
+
+/* kali newsletter form  */
+
+#submit-btn{
+  background-color: #4794f7;
+  color: white;
+  height: 37px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  transition-duration: 300ms;
+}
+#submit-btn:hover{
+  background-color: #8794f7;
+}
