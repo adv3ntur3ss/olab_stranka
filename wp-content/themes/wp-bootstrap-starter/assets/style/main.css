@@ -1133,7 +1133,7 @@ img {
 
 /* kali newsletter form  */
 
-#submit-btn{
+#submitbutton6{
   background-color: #4794f7;
   color: white;
   height: 37px;
@@ -1144,6 +1144,6 @@ img {
   font-size: 14px;
   transition-duration: 300ms;
 }
-#submit-btn:hover{
+#submitbutton6:hover{
   background-color: #8794f7;
 }
