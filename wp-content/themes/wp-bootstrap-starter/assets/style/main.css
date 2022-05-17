@@ -1205,3 +1205,6 @@ img {
 #slider_371_slide03{
   padding: 0px !important;
 }
+.owl-dots {
+  display: none !important;
+}
