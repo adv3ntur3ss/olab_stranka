@@ -1208,3 +1208,20 @@ img {
 .owl-carousel .owl-dots.disabled {
   display: none !important;
 }
+
+/* 404 page */
+
+.error-content{
+  width: 100% !important;
+  height: calc(100vh - 88.5px - 120px);
+  text-align: center;
+}
+.error-content-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
