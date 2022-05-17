@@ -1227,6 +1227,9 @@ img {
   align-items: center;
   margin-bottom: 1.3em;
 }
+.error-content-wrapper a{
+  margin-top: 20px;
+}
 #content.site-content{
   padding: 0!important;
 }
