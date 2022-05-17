@@ -12,7 +12,7 @@ get_header(); ?>
 	<div class="page-content error-content-wrapper">
 		<h2>Stránka, ktorú hladáš, neexistuje</h2>
 		<img src="wp-content/themes/wp-bootstrap-starter/assets/images/404_img.png">
-		<a href="/">HOME</a>
+		<a class="mb-70" href="/">HOME</a>
 	</div>
 </div>
 <?php
