@@ -1213,7 +1213,6 @@ img {
 
 .error-content{
   width: 100% !important;
-  height: calc(100vh - 350px);
   text-align: center;
   justify-content: center;
 }
