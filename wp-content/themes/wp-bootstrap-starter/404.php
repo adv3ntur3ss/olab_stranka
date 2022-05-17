@@ -8,7 +8,18 @@
  */
 
 get_header(); ?>
-
-
+<div id="page" class="site">
+	<div id="content" class="site-nt">
+		<div class="container">
+			<div id="main" class="site-main error-content" role="main">
+				<div class="page-content error-content-wrapper">
+					<h2>Stránka, ktorú hladáš neexistuje</h2>
+					<img src="./assets/images/404_img.png">
+					<a href="/">HOME</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <?php
 get_footer();
