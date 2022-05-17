@@ -1230,3 +1230,6 @@ img {
 #content.site-content{
   padding: 0!important;
 }
+.page-content{
+  margin: auto !important;
+}
