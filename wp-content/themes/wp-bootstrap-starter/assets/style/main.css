@@ -1228,3 +1228,6 @@ img {
 #content.site-content{
   padding: 0!important;
 }
+.error404{
+  overflow-y: hidden;
+}
