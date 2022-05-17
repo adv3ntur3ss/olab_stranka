@@ -1225,3 +1225,6 @@ img {
   justify-content: center;
   align-items: center;
 }
+#content.site-content{
+  padding: 0!important;
+}
