@@ -1213,13 +1213,14 @@ img {
 
 .error-content{
   width: 100% !important;
-  height: 100%;
+  height: calc(100vh - 350px);
   text-align: center;
+  justify-content: center;
 }
 .error-content-wrapper{
   position: relative;
   width: 100%;
-  height: calc(100vh - 350px);
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
