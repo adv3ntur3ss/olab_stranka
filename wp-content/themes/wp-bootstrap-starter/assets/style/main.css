@@ -1230,6 +1230,9 @@ img {
 .error-content-wrapper a{
   margin-top: 20px;
 }
+.error-content-wrapper img{
+  width: 600px;
+}
 #content.site-content{
   padding: 0!important;
 }
