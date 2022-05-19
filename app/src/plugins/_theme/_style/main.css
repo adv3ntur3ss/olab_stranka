@@ -1,4 +1,7 @@
 /* GLOBAL */
+html {
+  height: 100%;
+}
 #page{
   overflow-x: hidden;
 }
@@ -87,7 +90,6 @@ p {
 }
 
 /* Margin Padding */
-
 
 #trp-floater-ls.trp-top-left{
   left: 90% !important;
