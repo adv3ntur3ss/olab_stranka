@@ -21,12 +21,12 @@
 <div id="footer-center" class="pb-2 container mb-70">
     <div class="row">
       <div class="pd015 col-md">
-        <img id="m20028" src="/wp-content/themes/wp-bootstrap-starter/assets/images/logo.png" />
         <h4 id="f13h17">
           © 2020 Všetky práva vyhradené
           <br />
           OpenLab, o. z.
         </h4>
+        <img id="m20028" src="/wp-content/themes/wp-bootstrap-starter/assets/images/logo.png" />
       </div>
       <div class="col-md">
         <h4 class="h4f13">IČO: 50764675</h4>
