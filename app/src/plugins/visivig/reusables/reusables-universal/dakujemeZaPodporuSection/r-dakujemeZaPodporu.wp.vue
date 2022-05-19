@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-70">
+  <div class="mt-3 mb-70">
     <div class="container">
       <h1 class="hlc">Ďakujeme za podporu!</h1>
       <div class="image-flexbox">
