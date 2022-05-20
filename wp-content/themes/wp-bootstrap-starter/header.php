@@ -38,7 +38,6 @@
     }
 
     $filename = basename($_SERVER["REQUEST_URI"]);
-    echo $filename
 ?>
   <header>
     <div class="container">
