@@ -38,6 +38,9 @@
     }
 
 ?>
+<?php
+    $filename = basename($_SERVER["SCRIPT_FILENAME"], '.php');
+?>
   <header>
     <div class="container">
       <div class="navbar-container d-flex">
@@ -47,12 +50,12 @@
               <img id="iqiom" src="/wp-content/themes/wp-bootstrap-starter/assets/images/5eb1d693b4315openlab-logo.png" />
             </a>
           </div>
-          <div><a class="links" href="/home">Úvod</a></div>
-          <div><a class="links" href="/openlaby">Openlaby</a></div>
-          <div><a class="links" href="/nas-tim">Náš tím</a></div>
-          <div><a class="links" href="/novinky">Novinky</a></div>
-          <div><a class="links" href="/pre-ucitelov">Pre učiteľov</a></div>
-          <div><a class="links" href="/2percent">2%</a></div>
+          <div><a <?php echo ($filename == 'home') ? 'class="active"' : ''; ?> class="links" href="/home">Úvod</a></div>
+          <div><a <?php echo ($filename == 'openlaby') ? 'class="active"' : ''; ?> class="links" href="/openlaby">Openlaby</a></div>
+          <div><a <?php echo ($filename == 'nas-tim') ? 'class="active"' : ''; ?> class="links" href="/nas-tim">Náš tím</a></div>
+          <div><a <?php echo ($filename == 'novinky') ? 'class="active"' : ''; ?> class="links" href="/novinky">Novinky</a></div>
+          <div><a <?php echo ($filename == 'pre-ucitelov') ? 'class="active"' : ''; ?> class="links" href="/pre-ucitelov">Pre učiteľov</a></div>
+          <div><a <?php echo ($filename == '2%') ? 'class="active"' : ''; ?> class="links" href="/2percent">2%</a></div>
         </div>
         <div class="navbar-button">
           <a href="/pridaj-sa">
