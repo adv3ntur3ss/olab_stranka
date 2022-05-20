@@ -55,7 +55,7 @@
           <div><a <?php echo ($filename == 'nas-tim') ? 'class="active"' : ''; ?> class="links" href="/nas-tim">Náš tím</a></div>
           <div><a <?php echo ($filename == 'novinky') ? 'class="active"' : ''; ?> class="links" href="/novinky">Novinky</a></div>
           <div><a <?php echo ($filename == 'pre-ucitelov') ? 'class="active"' : ''; ?> class="links" href="/pre-ucitelov">Pre učiteľov</a></div>
-          <div><a <?php echo ($filename == '2%') ? 'class="active"' : ''; ?> class="links" href="/2percent">2%</a></div>
+          <div><a <?php echo ($filename == '2percent') ? 'class="active"' : ''; ?> class="links" href="/2percent">2%</a></div>
         </div>
         <div class="navbar-button">
           <a href="/pridaj-sa">

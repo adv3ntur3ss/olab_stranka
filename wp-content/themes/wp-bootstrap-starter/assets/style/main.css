@@ -545,6 +545,10 @@ hr {
 
 /* HEADER SECTION */
 
+
+.active{
+  color: #4794f7;
+}
 .navbar-toggler{
   border: none !important;
   box-shadow: none !important;
