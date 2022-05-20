@@ -1247,7 +1247,8 @@ img {
 .contact{
   margin: 5px 0;
 }
-#freetext1{
+#freeText1{
+  margin: 20px;
   border-radius: 9px;
   background-color: #007bff;
 }
