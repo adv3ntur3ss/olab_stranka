@@ -1261,3 +1261,6 @@ img {
 b > .white-text:hover{
   text-decoration: none;
 }
+.black-text{
+  color: #000000;
+}
