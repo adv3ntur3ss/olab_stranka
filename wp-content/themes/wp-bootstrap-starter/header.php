@@ -37,8 +37,6 @@
         do_action( 'wp_body_open' );
     }
 
-?>
-<?php
     $filename = basename($_SERVER["REQUEST_URI"]);
     echo $filename
 ?>
