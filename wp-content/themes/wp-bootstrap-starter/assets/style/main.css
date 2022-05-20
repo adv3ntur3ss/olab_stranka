@@ -1241,3 +1241,9 @@ img {
 .page-content{
   margin: auto !important;
 }
+
+/* contact form */
+
+.contact{
+  margin: 5px 0;
+}
