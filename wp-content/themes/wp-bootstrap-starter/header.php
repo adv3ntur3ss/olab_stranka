@@ -49,7 +49,7 @@
               <img id="iqiom" src="/wp-content/themes/wp-bootstrap-starter/assets/images/5eb1d693b4315openlab-logo.png" />
             </a>
           </div>
-          <div><a <?php echo ($filename == 'home') ? 'class="active"' : ''; ?> class="links" href="/home">Úvod</a></div>
+          <div><a <?php echo ($filename == '') ? 'class="active"' : ''; ?> class="links" href="/home">Úvod</a></div>
           <div><a <?php echo ($filename == 'openlaby') ? 'class="active"' : ''; ?> class="links" href="/openlaby">Openlaby</a></div>
           <div><a <?php echo ($filename == 'nas-tim') ? 'class="active"' : ''; ?> class="links" href="/nas-tim">Náš tím</a></div>
           <div><a <?php echo ($filename == 'novinky') ? 'class="active"' : ''; ?> class="links" href="/novinky">Novinky</a></div>
