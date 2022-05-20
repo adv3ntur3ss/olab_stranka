@@ -1247,3 +1247,10 @@ img {
 .contact{
   margin: 5px 0;
 }
+#freetext1{
+  border-radius: 9px;
+  background-color: #007bff;
+}
+#contact-div{
+  background-color: #00f;
+}
