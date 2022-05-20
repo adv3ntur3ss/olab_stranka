@@ -39,7 +39,7 @@
 
 ?>
 <?php
-    $filename = basename($_SERVER["SCRIPT_FILENAME"]);
+    $filename = basename($_SERVER["REQUEST_URI"]);
 ?>
   <header>
     <div class="container">
