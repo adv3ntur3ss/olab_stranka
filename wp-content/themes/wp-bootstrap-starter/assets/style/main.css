@@ -1272,3 +1272,9 @@ b > .white-text:hover{
 .black-text{
   color: #000000;
 }
+
+/* select language section */
+
+#trp-floater-ls.trp-top-left {
+  border-radius: 87% 23% 50% 100%;
+}
