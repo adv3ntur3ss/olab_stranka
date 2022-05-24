@@ -550,6 +550,9 @@ hr {
   color: #4794f7;
   text-decoration: none !important;
 }
+.active:hover{
+  color: #4794f7;
+}
 .navbar-toggler{
   border: none !important;
   box-shadow: none !important;
