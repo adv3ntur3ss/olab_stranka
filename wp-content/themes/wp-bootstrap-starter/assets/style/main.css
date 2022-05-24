@@ -548,6 +548,7 @@ hr {
 
 .active{
   color: #4794f7;
+  text-decoration: none !important;
 }
 .navbar-toggler{
   border: none !important;
