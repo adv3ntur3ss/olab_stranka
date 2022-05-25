@@ -1314,3 +1314,15 @@ b > .white-text:hover{
   top: 0;
   z-index: 999;
 }
+
+
+
+
+
+
+
+/* admin menu */
+
+#adminmenuback, #adminmenuwrap {
+  background: radial-gradient(black, transparent);
+}
