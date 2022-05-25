@@ -196,7 +196,7 @@ img {
   border-radius: 6px;
 }
 .card {
-  position: unset;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,14 +252,6 @@ hr {
 }
 
 /* Media Q */
-@media screen and (min-width: 1200px){
-  #preco-studentom-p1{
-    margin-bottom: 23px !important;
-  }
-  #preco-studentom-p2{
-    margin-bottom: 43px;
-  }
-}
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   #iaqtr {
     padding-top: 150px !important;
@@ -281,7 +273,8 @@ hr {
 @media only screen and (min-width: 992px) {
   .navbar-display {
     display: none !important;
-  }  
+  }
+  
 }
 @media only screen and (max-width: 991px) {
   .card{
@@ -323,16 +316,10 @@ hr {
   #iqrco {
     bottom: 300px !important;
   }
-  #preco-studentom-p2{
-    margin-bottom: 55px;
-  }
-  #preco-studentom-p2{
-    margin-bottom: 73px !important;
-  }
 }
 @media screen and (max-width: 991px) {
   #iqwew {
-    padding-top: 120px !important;
+    bottom: 150px !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -440,7 +427,8 @@ hr {
     text-align: center;
   }
   #iqwew {
-    padding-top: 20px !important;
+    position: relative !important;
+    bottom: 0 !important;
   }
   #iqrco {
     position: relative !important;
@@ -492,12 +480,6 @@ hr {
   #op-ac-btn{
     width: auto !important;
   }
-  #preco-studentom-p1{
-    margin-bottom: 23px !important;
-  }
-  #preco-studentom-p2{
-    margin-bottom: 23px !important;
-  }
 }
 @media screen and (max-width: 610px) {
   .pd30-0 {
@@ -530,8 +512,7 @@ hr {
   }
   .cardC{
     padding-top: 20px !important;
-    padding-bottom: 10px !important;
-    margin-bottom: 10px !important;
+    padding-bottom: 20px !important;
   }
   #ipdaq{
    padding-bottom: 30px !important; 
@@ -782,6 +763,8 @@ img {
   height: 45px;
 }
 .preco-a {
+  position: absolute;
+  bottom: 0;
   color: #2c92ff;
 }
 .preco-a:hover {
@@ -793,12 +776,6 @@ img {
 }
 .col-r {
   position: relative;
-}
-#preco-studentom-p1{
-  margin-bottom: 48px;
-}
-#preco-studentom-p2{
-  margin-bottom: 48px;
 }
 
 /* cimSmeVynimocni section */
@@ -816,7 +793,8 @@ img {
   max-width: 470px;
 }
 #iqwew {
-  padding-top: 195px;
+  position: absolute;
+  bottom: 0px;
 }
 #iqwaq {
   min-height: 550px;
@@ -904,11 +882,10 @@ img {
 .cardC {
   padding-top: 35px;
   padding-right: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   padding-left: 24px;
   margin-right: 5px;
   margin-left: 5px;
-  margin-bottom: 30px;
   border-radius: 6px;
   border: none;
 }
@@ -917,12 +894,10 @@ img {
   cursor: pointer;
 }
 .cardC img {
+  position: absolute;
+  bottom: 25px;
   width: 30px;
   height: 20px;
-}
-.cardC p{
-  padding-bottom: 20px;
-  margin-bottom: auto;
 }
 #ipdaq {
   padding: 0;
@@ -1313,16 +1288,4 @@ b > .white-text:hover{
   position: sticky;
   top: 0;
   z-index: 999;
-}
-
-
-
-
-
-
-
-/* admin menu */
-
-#adminmenuback, #adminmenuwrap {
-  background: radial-gradient(black, transparent);
 }
