@@ -239,7 +239,7 @@ img {
 }
 hr {
   background-color: #cddff1;
-  opacity: unset;
+  opacity: 0.5;
   margin: 60px 0 70px 0;
   border-top: 0.5px solid;
 }
