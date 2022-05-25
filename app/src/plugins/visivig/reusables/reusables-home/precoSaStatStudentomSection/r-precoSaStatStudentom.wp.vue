@@ -8,15 +8,18 @@
       know-how.
     </h4>
     <div class="row">
-      <div class="col-r col-md">
+      <div class="col-md">
         <div class="pb-15">
-          <img class="lab-img" src="/wp-content/themes/wp-bootstrap-starter/assets/images/5ea1646181a695ea0a1b0305127.png" />
+          <img
+            class="lab-img"
+            src="/wp-content/themes/wp-bootstrap-starter/assets/images/5ea1646181a695ea0a1b0305127.png"
+          />
           <h3 class="mb-23">
             Vyber si tech oblasť
             <br />
             a začni tvoriť!
           </h3>
-          <p class="mb-23">
+          <p id="preco-studentom-p1">
             Osnovy aj učebné materiály pre všetky tech oblasti sú open source. Z
             materiálov získaš tech skilly, s ktorými môžeš začať tvoriť projekty
             a ďalej sa zlepšovať.
@@ -29,15 +32,18 @@
           >
         </div>
       </div>
-      <div class="col-r col-md">
+      <div class="col-md">
         <div class="pb-15">
-          <img class="lab-img" src="/wp-content/themes/wp-bootstrap-starter/assets/images/2a.png" />
+          <img
+            class="lab-img"
+            src="/wp-content/themes/wp-bootstrap-starter/assets/images/2a.png"
+          />
           <h3 class="mb-23">
             Získaj support
             <br />
             v OpenLab komunite!
           </h3>
-          <p class="mb-23">
+          <p id="preco-studentom-p2">
             Ak sa zasekneš, potrebuješ radu alebo chceš svoju prácu konzultovať
             s rovesníkom alebo odborníkom, pomôže ti OpenLab komunita na Slacku.
           </p>
@@ -49,9 +55,12 @@
           >
         </div>
       </div>
-      <div class="col-r col-md">
+      <div class="col-md">
         <div class="pb-15">
-          <img class="lab-img" src="/wp-content/themes/wp-bootstrap-starter/assets/images/3a.png" />
+          <img
+            class="lab-img"
+            src="/wp-content/themes/wp-bootstrap-starter/assets/images/3a.png"
+          />
           <h3 id="idaw" class="mb-23">Poď stážovať!</h3>
           <p class="mb-23">
             Nemusíš mať top tech skilly, aby si získal stáž v technologickej

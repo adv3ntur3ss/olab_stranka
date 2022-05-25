@@ -14,7 +14,7 @@
             S týmito tech zručnosťami budeš ready na 21. storočie.
           </h4>
         </div>
-        <div id="zapoj-sa-img-width" class="col-md-6 col-r">
+        <div id="zapoj-sa-img-width" class="col-md-6">
           <img id="iqwew" src="/wp-content/themes/wp-bootstrap-starter/assets/images/5ea6d7142dd19Untitled-2.png" />
         </div>
       </div>
