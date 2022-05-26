@@ -92,6 +92,9 @@ p {
 /* Margin Padding */
 
 
+.content-center{
+  justify-content: center;
+}
 #trp-floater-ls.trp-top-left{
   left: 90% !important;
 }
