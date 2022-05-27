@@ -1304,5 +1304,5 @@ b > .white-text:hover{
   text-align: center;
 }
 .CookiebotWidget-consent-details{
-  margin: auto;
+  margin: auto !important;
 }
