@@ -1291,3 +1291,19 @@ b > .white-text:hover{
   top: 0;
   z-index: 999;
 }
+
+
+/* cookiebot section */
+
+#CookiebotWidget .CookiebotWidget-header {
+  justify-content: center;
+}
+#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li {
+  justify-content: center;
+}
+#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list{
+  text-align: center;
+}
+.CookiebotWidget-consent-details-box{
+  margin: auto;
+}
