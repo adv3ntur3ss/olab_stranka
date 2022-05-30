@@ -1306,3 +1306,6 @@ b > .white-text:hover{
 .CookiebotWidget-consent-details{
   margin: auto !important;
 }
+#CookiebotWidget .CookiebotWidget-logo svg circle {
+  fill: #123393;
+}
