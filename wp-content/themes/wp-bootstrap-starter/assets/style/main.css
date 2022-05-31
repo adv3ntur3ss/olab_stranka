@@ -1309,3 +1309,8 @@ b > .white-text:hover{
 #CookiebotWidget .CookiebotWidget-logo svg circle {
   fill: #123393 !important;
 }
+
+/* admin menu */
+#wpadminbar{
+  background: #52accc;
+}
