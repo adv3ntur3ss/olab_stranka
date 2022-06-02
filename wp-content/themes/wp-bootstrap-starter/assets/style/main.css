@@ -1294,22 +1294,19 @@ b > .white-text:hover{
 
 /* cookiebot section */
 
-#CookiebotWidget .CookiebotWidget-header {
-  justify-content: center;
-}
-#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li {
-  justify-content: center;
-}
-#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list{
-  text-align: center;
-}
-.CookiebotWidget-consent-details{
-  margin: auto !important;
-}
 #CookiebotWidget .CookiebotWidget-logo svg circle {
   fill: #123393 !important;
 }
-
+#CookiebotWidget .CookiebotWidget-consent-details button {
+  color: #4794f7 !important;
+}
+#CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-change {
+  background-color: #4794f7 !important;
+  border-color: #4794f7 !important;
+}
+#CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-withdraw {
+  border-color: #4794f7;
+}
 /* admin menu */
 #wpadminbar{
   background: #52accc;
