@@ -1305,7 +1305,7 @@ b > .white-text:hover{
   border-color: #4794f7 !important;
 }
 #CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-withdraw {
-  border-color: #4794f7;
+  border-color: #4794f7 !important;
 }
 /* admin menu */
 #wpadminbar{
